@@ -6,6 +6,7 @@ import { isReactVersion } from './propTypes';
 const diagramVersions = {
   16.3: import('./versions/16.3'),
   16.4: import('./versions/16.4'),
+  v1: import('./versions/v1'),
 };
 
 export default class Diagram extends Component {
@@ -45,16 +46,35 @@ export default class Diagram extends Component {
       return null;
     }
 
-    const { Mounting, Updating, Unmounting } = diagramElements;
+    const { Construct = null, Connect = null, Disconnect = null, Mounting, Updating = null, Unmounting = null } = diagramElements;
 
     return (
       <>
         <h2 className="hidden">
           Component lifecycle
         </h2>
-        <Mounting advanced={advanced} />
+
+        {Mounting &&
+          <Mounting advanced={advanced} />
+        }
+
+        {Construct &&
+          <Construct advanced={advanced} />
+        }
+
+        {Connect && null &&
+          <Connect advanced={advanced} />
+        }
+
         <Updating advanced={advanced} />
-        <Unmounting advanced={advanced} />
+
+        {Unmounting &&
+          <Unmounting advanced={advanced} />
+        }
+
+        {Disconnect &&
+          <Disconnect advanced={advanced} />
+        }
       </>
     );
   }
