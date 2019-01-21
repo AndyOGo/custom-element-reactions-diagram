@@ -4,85 +4,43 @@ import PropTypes from 'prop-types';
 import Section from '../../diagramElements/Section';
 import Method from '../../diagramElements/Method';
 import Arrow from '../../diagramElements/Arrow';
+import Initiator from '../../diagramElements/Initiator';
 
 const Connect = ({ advanced }) => (advanced ? (
-  <Section advanced name="Connect" col={1}>
-    <Arrow />
-    <Method
-      main
-      name="constructor"
-      docname="custom-element-constructor"
-      type="upgrade"
-      row={1}
-    />
-    <Arrow />
-    <Method
-      name="attributeChangedCallback"
-      docname="static-getderivedstatefromprops"
-      type="upgrade"
-      row={2}
-      colspan={4}
-    />
-    <Arrow />
-    <Method
-      main
-      name="render"
-      docname="render"
-      type="render"
-      row={4}
-      colspan={4}
-    />
-    <Arrow />
-    <Method
+  <Section advanced name="Connect" col={2} colspan={2}>
+    <Initiator
       secondary
-      name="React updates DOM and refs"
-      type="pre-commit"
+      name="appendChild()"
       row={6}
-      colspan={4}
+      col={2}
+      rowspan={2}
     />
-    <Arrow solid />
+    <Arrow solid colspan={2} />
     <Method
       main
       name="connectedCallback"
       docname="componentdidmount"
       type="live"
       row={7}
+      colspan={2}
     />
   </Section>
 ) : (
-  <Section name="Connect" col={1}>
-    <Arrow />
-    <Method
-      main
-      name="constructor"
-      docname="constructor"
-      type="render"
-      row={1}
-    />
-    <Arrow />
-    <Method
-      main
-      name="render"
-      docname="render"
-      type="render"
-      row={2}
-      colspan={4}
-    />
-    <Arrow />
-    <Method
+  <Section name="Connect" col={2} colspan={2}>
+    <Initiator
       secondary
-      name="React updates DOM and refs"
-      type="pre-commit"
-      row={3}
-      colspan={4}
+      name="appendChild()"
+      row={6}
+      col={2}
     />
-    <Arrow solid />
+    <Arrow solid colspan={2} />
     <Method
       main
-      name="componentDidMount"
+      name="connectedCallback"
       docname="componentdidmount"
-      type="commit"
-      row={4}
+      type="live"
+      row={7}
+      colspan={2}
     />
   </Section>
 ));

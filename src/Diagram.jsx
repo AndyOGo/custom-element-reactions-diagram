@@ -62,7 +62,7 @@ export default class Diagram extends Component {
           <Construct advanced={advanced} />
         }
 
-        {Connect && null &&
+        {Connect &&
           <Connect advanced={advanced} />
         }
 
