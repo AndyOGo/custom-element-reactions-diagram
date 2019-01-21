@@ -51,7 +51,7 @@ export default class Diagram extends Component {
     return (
       <>
         <h2 className="hidden">
-          Component lifecycle
+          Custom Element Reactions
         </h2>
 
         {Mounting &&

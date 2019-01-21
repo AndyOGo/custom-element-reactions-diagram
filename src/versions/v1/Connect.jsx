@@ -12,14 +12,14 @@ const Connect = ({ advanced }) => (advanced ? (
       main
       name="constructor"
       docname="custom-element-constructor"
-      type="render"
+      type="upgrade"
       row={1}
     />
     <Arrow />
     <Method
-      name="getDerivedStateFromProps"
+      name="attributeChangedCallback"
       docname="static-getderivedstatefromprops"
-      type="render"
+      type="upgrade"
       row={2}
       colspan={4}
     />
@@ -43,9 +43,9 @@ const Connect = ({ advanced }) => (advanced ? (
     <Arrow solid />
     <Method
       main
-      name="componentDidMount"
+      name="connectedCallback"
       docname="componentdidmount"
-      type="commit"
+      type="live"
       row={7}
     />
   </Section>

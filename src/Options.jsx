@@ -53,7 +53,7 @@ const Options = ({
       <input type="checkbox" id="showAdvanced" checked={advanced} onChange={toggleAdvanced} />
       <label htmlFor="showAdvanced">
         <T>
-          Show less common lifecycles
+          Show custom lifecycles
         </T>
       </label>
     </div>
