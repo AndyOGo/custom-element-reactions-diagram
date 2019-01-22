@@ -24,6 +24,15 @@ const Connect = ({ advanced }) => (advanced ? (
       row={5}
       colspan={2}
     />
+    <Arrow solid colspan={2} />
+    <Method
+      main
+      name="custom render"
+      type="live"
+      row={6}
+      col={2}
+      colspan={4}
+    />
   </Section>
 ) : (
   <Section name="Connect" col={2} colspan={2}>
@@ -41,6 +50,15 @@ const Connect = ({ advanced }) => (advanced ? (
       type="live"
       row={5}
       colspan={2}
+    />
+    <Arrow solid colspan={2} />
+    <Method
+      main
+      name="custom render"
+      type="live"
+      row={6}
+      col={2}
+      colspan={4}
     />
   </Section>
 ));

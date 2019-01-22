@@ -23,6 +23,15 @@ const Updating = ({ advanced }) => (advanced ? (
       row={3}
       colspan={2}
     />
+    <Arrow solid colspan={2} />
+    <Method
+      main
+      name="custom render"
+      type="live"
+      row={6}
+      col={2}
+      colspan={4}
+    />
   </Section>
 ) : (
   <Section name="Updating" col={4} colspan={2}>
@@ -40,6 +49,15 @@ const Updating = ({ advanced }) => (advanced ? (
       col={4}
       row={3}
       colspan={2}
+    />
+    <Arrow solid colspan={2} />
+    <Method
+      main
+      name="custom render"
+      type="live"
+      row={6}
+      col={2}
+      colspan={4}
     />
   </Section>
 ));
