@@ -1,14 +1,14 @@
-# React Lifecycle Methods diagram
+# Custom Element Reactions diagram
 
-An interactive version of [React Lifecycle Methods diagram tweeted by Dan Abramov](https://twitter.com/dan_abramov/status/981712092611989509). Built in React, obviously.
+An interactive version for [**Custom Element Reactions**](https://html.spec.whatwg.org/multipage/custom-elements.html#custom-element-reactions) adapted from awesome [interactive react-lifecycle-methods-diagram](http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/) and originally inspired by awesome [React Lifecycle Methods diagram tweeted by Dan Abramov](https://twitter.com/dan_abramov/status/981712092611989509). Built in React, obviously.
 
-I did my best to make the diagram fully accessibile, both for keyboard navigation and screen readers for visually impaired people.
+I did my best to make the diagram fully accessible, both for keyboard navigation and screen readers for visually impaired people.
 
 [Online version](http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/) is also available!
 
 ## How to use the diagram
 
-* Click any method name to read its official documentation (opens in a new tab).
+* Click any method name to read its official spec (opens in a new tab).
 * Methods in **bold** are the most common ones.
 * Actions that are not methods, but otherwise help reading the diagram, are in *italics*.
 
