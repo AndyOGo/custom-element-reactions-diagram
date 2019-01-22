@@ -24,7 +24,7 @@ const Connect = ({ advanced }) => (advanced ? (
       row={5}
       colspan={2}
     />
-    <Arrow solid colspan={2} />
+    <Arrow withAlt solid colspan={2} />
     <Method
       main
       name="custom render"
@@ -51,7 +51,7 @@ const Connect = ({ advanced }) => (advanced ? (
       row={5}
       colspan={2}
     />
-    <Arrow solid colspan={2} />
+    <Arrow withAlt solid colspan={2} />
     <Method
       main
       name="custom render"

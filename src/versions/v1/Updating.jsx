@@ -23,7 +23,7 @@ const Updating = ({ advanced }) => (advanced ? (
       row={3}
       colspan={2}
     />
-    <Arrow solid colspan={2} />
+    <Arrow withAlt solid colspan={2} />
     <Method
       main
       name="custom render"
@@ -50,7 +50,7 @@ const Updating = ({ advanced }) => (advanced ? (
       row={3}
       colspan={2}
     />
-    <Arrow solid colspan={2} />
+    <Arrow withAlt solid colspan={2} />
     <Method
       main
       name="custom render"
