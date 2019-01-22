@@ -11,7 +11,8 @@ class DocLinkInternal extends Component {
     docname: PropTypes.string,
     docurl: PropTypes.string,
     locale: PropTypes.string,
-    name: PropTypes.string.isRequired,
+    name: PropTypes.string,
+    children: PropTypes.element,
   };
 
   static defaultProps = {
@@ -41,10 +42,10 @@ class DocLinkInternal extends Component {
   }
 
   async getTranslation() {
-    const { locale, name } = this.props;
+    const { locale, name, docname } = this.props;
 
     const translatedName = await t(name, null, locale);
-    const translatedTitle = await t('Read docs for {name} (opens in a new tab)', { name }, locale);
+    const translatedTitle = await t('Read docs for {name} (opens in a new tab)', { name: name || docname }, locale);
 
     if (!this.isComponentMounted) {
       return;
