@@ -44,7 +44,7 @@ Method.propTypes = {
   name: PropTypes.string.isRequired,
   row: PropTypes.number.isRequired,
   secondary: PropTypes.bool,
-  type: PropTypes.oneOf(['unknown', 'upgrade', 'live']),
+  type: PropTypes.oneOf(['unknown', 'upgrade', 'live', 'custom']),
 };
 
 Method.defaultProps = {

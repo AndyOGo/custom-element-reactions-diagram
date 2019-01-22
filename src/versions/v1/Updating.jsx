@@ -28,7 +28,7 @@ const Updating = ({ advanced }) => (advanced ? (
     <Method
       secondar
       name="custom render"
-      type="live"
+      type="custom"
       row={6}
       col={2}
       colspan={4}
@@ -56,7 +56,7 @@ const Updating = ({ advanced }) => (advanced ? (
     <Method
       secondary
       name="custom render"
-      type="live"
+      type="custom"
       row={6}
       col={2}
       colspan={4}
