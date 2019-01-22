@@ -16,7 +16,7 @@ const Method = ({
   row,
   secondary,
   type,
-  ...props,
+  ...props
 }) => (
   <li
     className={mergeClassNames(

@@ -53,4 +53,3 @@ Disconnecting.propTypes = {
 };
 
 export default Disconnecting;
-

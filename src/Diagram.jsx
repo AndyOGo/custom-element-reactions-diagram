@@ -44,7 +44,7 @@ export default class Diagram extends Component {
       return null;
     }
 
-    const { Connecting, Updating, Disconnecting} = diagramElements;
+    const { Connecting, Updating, Disconnecting } = diagramElements;
 
     return (
       <>

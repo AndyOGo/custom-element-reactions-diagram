@@ -20,85 +20,85 @@ const Updating = ({ advanced }) => (advanced ? (
         colspan={2}
       />
       <Arrow row={2} colspan={2} />
-        <Initiator
-          name="setAttribute()"
-          docname="dom-element-setattribute"
-          docurl="https://dom.spec.whatwg.org"
-          row={2}
-          col={2}
-          colspan={2}
-        />
-        <Arrow colspan={2} />
-        <Method
-          main
-          name="attributeChangedCallback"
-          docname="custom-element-reactions:concept-element-attributes-change"
-          type="upgrade"
-          col={2}
-          row={3}
-          colspan={2}
-        />
-        <Arrow withAlt solid row={4} col={2} colspan={2} />
-        <Method
-          secondar
-          name="custom render"
-          type="custom"
-          row={6}
-          col={1}
-          colspan={5}
-        />
+      <Initiator
+        name="setAttribute()"
+        docname="dom-element-setattribute"
+        docurl="https://dom.spec.whatwg.org"
+        row={2}
+        col={2}
+        colspan={2}
+      />
+      <Arrow colspan={2} />
+      <Method
+        main
+        name="attributeChangedCallback"
+        docname="custom-element-reactions:concept-element-attributes-change"
+        type="upgrade"
+        col={2}
+        row={3}
+        colspan={2}
+      />
+      <Arrow withAlt solid row={4} col={2} colspan={2} />
+      <Method
+        secondar
+        name="custom render"
+        type="custom"
+        row={6}
+        col={1}
+        colspan={5}
+      />
     </Subsection>
 
-      <Subsection col={6}>
-          <Method
-            secondary
-            name="custom properties"
-            docname="static-getderivedstatefromprops"
-            type="custom"
-            col={4}
-            row={3}
-            colspan={2}
-          />
-          <Arrow withAlt solid col={4} colspan={2} />
-          <Method
-            secondar
-            name="custom render"
-            type="custom"
-            row={6}
-            col={1}
-            colspan={5}
-          />
-      </Subsection>
+    <Subsection col={6}>
+      <Method
+        secondary
+        name="custom properties"
+        docname="static-getderivedstatefromprops"
+        type="custom"
+        col={4}
+        row={3}
+        colspan={2}
+      />
+      <Arrow withAlt solid col={4} colspan={2} />
+      <Method
+        secondar
+        name="custom render"
+        type="custom"
+        row={6}
+        col={1}
+        colspan={5}
+      />
+    </Subsection>
 
-      <Subsection col={2}>
-          <Initiator
-            name="adoptNode()"
-            docname="dom-document-adoptnode"
-            docurl="https://dom.spec.whatwg.org"
-            row={4}
-            col={3}
-            colspan={2}
-          />
-          <Arrow col={3} colspan={2} />
-          <Method
-            main
-            name="adoptedCallback"
-            docname="custom-element-reactions:concept-node-adopt"
-            type="live"
-            col={3}
-            row={5}
-            colspan={2}
-          />
-          <Arrow withAlt solid row={4} col={3} colspan={2} />
-          <Method
-            secondar
-            name="custom render"
-            type="custom"
-            row={6}
-            col={1}
-            colspan={5}
-          />
-      </Subsection>
+    <Subsection col={2}>
+      <Initiator
+        name="adoptNode()"
+        docname="dom-document-adoptnode"
+        docurl="https://dom.spec.whatwg.org"
+        row={4}
+        col={3}
+        colspan={2}
+      />
+      <Arrow col={3} colspan={2} />
+      <Method
+        main
+        name="adoptedCallback"
+        docname="custom-element-reactions:concept-node-adopt"
+        type="live"
+        col={3}
+        row={5}
+        colspan={2}
+      />
+      <Arrow withAlt solid row={4} col={3} colspan={2} />
+      <Method
+        secondar
+        name="custom render"
+        type="custom"
+        row={6}
+        col={1}
+        colspan={5}
+      />
+    </Subsection>
   </Section>
 ) : (
   <Section advanced name="Updating" col={2} colspan={4}>

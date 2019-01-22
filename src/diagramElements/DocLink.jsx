@@ -8,11 +8,11 @@ import { Consumer } from '../i18n/LangObserver';
 
 class DocLinkInternal extends Component {
   static propTypes = {
+    children: PropTypes.element,
     docname: PropTypes.string,
     docurl: PropTypes.string,
     locale: PropTypes.string,
     name: PropTypes.string,
-    children: PropTypes.element,
   };
 
   static defaultProps = {
@@ -57,7 +57,7 @@ class DocLinkInternal extends Component {
   render() {
     const { docurl, docname } = this.props;
     const { translatedTitle: title, translatedName: name } = this.state;
-    let { children = splitUpperCase(name) } = this.props;
+    const { children = splitUpperCase(name) } = this.props;
 
     return (
       docname

@@ -5,16 +5,15 @@ import mergeClassNames from 'merge-class-names';
 import './Initiator.less';
 
 import DocLink from './DocLink';
-import Method from './Method';
 
 const Initiator = ({
-  col, colspan, rowspan, docname, name, row, secondary, ...props,
+  col, colspan, rowspan, docname, name, row, secondary, ...props
 }) => (
   <div
     className={mergeClassNames('Initiator', docname && 'Initiator--hasLink', secondary && 'Initiator--secondary')}
     data-column={col + 1}
     style={{
-      gridColumn: `${col + 1} / ${colspan ? `span ${colspan}`: 'auto'}`,
+      gridColumn: `${col + 1} / ${colspan ? `span ${colspan}` : 'auto'}`,
       gridRow: `${row * 3} / span ${rowspan}`,
     }}
   >
@@ -27,10 +26,10 @@ const Initiator = ({
 Initiator.propTypes = {
   col: PropTypes.number,
   colspan: PropTypes.number,
-  rowspan: PropTypes.number,
   docname: PropTypes.string,
   name: PropTypes.string.isRequired,
   row: PropTypes.number.isRequired,
+  rowspan: PropTypes.number,
   secondary: PropTypes.bool,
 };
 

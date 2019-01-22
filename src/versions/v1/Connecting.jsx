@@ -8,31 +8,31 @@ import Initiator from '../../diagramElements/Initiator';
 
 const Connecting = ({ advanced }) => (advanced ? (
   <Section advanced name="Connecting" col={1} colspan={1}>
-      <Arrow />
-      <Method
-        main
-        name="define"
-        docname="element-definition"
-        type="unknown"
-        row={1}
-        col={1}
-      />
-      <Initiator
-        secondary
-        name="createElement()"
-        docname="dom-document-createelement"
-        docurl="https://dom.spec.whatwg.org"
-        row={2}
-      />
-      <Arrow />
-      <Method
-        main
-        name="constructor"
-        docname="custom-element-constructor"
-        type="upgrade"
-        row={3}
-        col={1}
-      />
+    <Arrow />
+    <Method
+      main
+      name="define"
+      docname="element-definition"
+      type="unknown"
+      row={1}
+      col={1}
+    />
+    <Initiator
+      secondary
+      name="createElement()"
+      docname="dom-document-createelement"
+      docurl="https://dom.spec.whatwg.org"
+      row={2}
+    />
+    <Arrow />
+    <Method
+      main
+      name="constructor"
+      docname="custom-element-constructor"
+      type="upgrade"
+      row={3}
+      col={1}
+    />
     <Initiator
       secondary
       name="appendChild()"

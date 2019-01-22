@@ -8,7 +8,7 @@ import DocLink from '../diagramElements/DocLink';
 import T from '../i18n';
 
 const Phase = ({
-  children, last, name, row, rowspan, docname, ...props,
+  children, last, name, row, rowspan, docname, ...props
 }) => (
   <div
     className={mergeClassNames('Phase', last && 'Phase--last')}
@@ -34,6 +34,7 @@ const Phase = ({
 
 Phase.propTypes = {
   children: PropTypes.string.isRequired,
+  docname: PropTypes.string,
   last: PropTypes.bool,
   name: PropTypes.string.isRequired,
   row: PropTypes.number.isRequired,
