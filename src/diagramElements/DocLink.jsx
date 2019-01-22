@@ -56,8 +56,7 @@ class DocLinkInternal extends Component {
   render() {
     const { docurl, docname } = this.props;
     const { translatedTitle: title, translatedName: name } = this.state;
-
-    const children = splitUpperCase(name);
+    let { children = splitUpperCase(name) } = this.props;
 
     return (
       docname
