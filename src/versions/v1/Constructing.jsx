@@ -11,7 +11,7 @@ const Constructing = ({ advanced }) => (advanced ? (
     <Arrow />
     <Method
       main
-      name="customElements.define"
+      name="define"
       docname="custom-element-constructor"
       type="unknown"
       row={1}
@@ -37,7 +37,7 @@ const Constructing = ({ advanced }) => (advanced ? (
     <Arrow />
     <Method
       main
-      name="customElements.define"
+      name="define"
       docname="custom-element-constructor"
       type="unknown"
       row={2}
