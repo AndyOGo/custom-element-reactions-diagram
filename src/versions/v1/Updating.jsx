@@ -57,6 +57,34 @@ const Updating = ({ advanced }) => (advanced ? (
             colspan={6}
           />
       </Subsection>
+
+      <Subsection col={4}>
+          <Initiator
+            name="adoptNode()"
+            docname="setstate"
+            row={4}
+            col={5}
+          />
+          <Arrow col={5} colspan={2} />
+          <Method
+            main
+            name="adoptedCallback"
+            docname="static-getderivedstatefromprops"
+            type="live"
+            col={5}
+            row={5}
+            colspan={2}
+          />
+          <Arrow withAlt solid row={4} col={5} colspan={2} />
+          <Method
+            secondar
+            name="custom render"
+            type="custom"
+            row={6}
+            col={2}
+            colspan={6}
+          />
+      </Subsection>
   </Section>
 ) : (
   <Section name="Updating" col={4} colspan={2}>
