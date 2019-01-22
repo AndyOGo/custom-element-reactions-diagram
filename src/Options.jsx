@@ -53,14 +53,14 @@ const Options = ({
       <input type="checkbox" id="showAdvanced" checked={advanced} onChange={toggleAdvanced} />
       <label htmlFor="showAdvanced">
         <T>
-          Show custom lifecycles
+          Show custom reactions
         </T>
       </label>
     </div>
     <div>
       <label htmlFor="reactVersion">
         <T>
-          React version
+          Custom Element version
         </T>
       </label>
       <SelectOption
