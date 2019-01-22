@@ -11,7 +11,7 @@ const Disconnect = ({ advanced }) => (advanced ? (
     <Initiator
       secondary
       name="removeChild()"
-      row={6}
+      row={4}
     />
     <Arrow solid colspan={2} />
     <Method
@@ -19,7 +19,7 @@ const Disconnect = ({ advanced }) => (advanced ? (
       name="disconnectedCallback"
       docname="componentdidmount"
       type="live"
-      row={7}
+      row={5}
       colspan={2}
     />
   </Section>
@@ -28,7 +28,7 @@ const Disconnect = ({ advanced }) => (advanced ? (
     <Initiator
       secondary
       name="removeChild()"
-      row={6}
+      row={4}
     />
     <Arrow solid colspan={2} />
     <Method
@@ -36,7 +36,7 @@ const Disconnect = ({ advanced }) => (advanced ? (
       name="disconnectedCallback"
       docname="componentdidmount"
       type="live"
-      row={7}
+      row={5}
       colspan={2}
     />
   </Section>

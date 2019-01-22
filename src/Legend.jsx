@@ -8,13 +8,13 @@ const Legend = ({ advanced }) => (advanced ? (
     <h2 className="hidden">
       Phases
     </h2>
-    <Phase name="Unknown" row={1} rowspan={4}>
+    <Phase name="Unknown" row={1} rowspan={2}>
       Still waiting for custom element definition.
     </Phase>
-    <Phase name="Upgrade" row={5} rowspan={1}>
+    <Phase name="Upgrade" row={3} rowspan={1}>
       Can not read the DOM.
     </Phase>
-    <Phase last name="Live" row={6} rowspan={2}>
+    <Phase last name="Live" row={4} rowspan={2}>
       Can work with DOM, run side effects, schedule updates.
     </Phase>
   </>

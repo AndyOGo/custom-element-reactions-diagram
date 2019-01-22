@@ -11,8 +11,8 @@ const Updating = ({ advanced }) => (advanced ? (
     <Initiator
       name="setAttribute()"
       docname="setstate"
-      row={1}
-      col={4}
+      row={2}
+      col={5}
     />
     <Arrow colspan={2} />
     <Method
@@ -20,7 +20,7 @@ const Updating = ({ advanced }) => (advanced ? (
       docname="static-getderivedstatefromprops"
       type="upgrade"
       col={4}
-      row={5}
+      row={3}
       colspan={2}
     />
   </Section>
@@ -29,7 +29,8 @@ const Updating = ({ advanced }) => (advanced ? (
     <Initiator
       name="setAttribute()"
       docname="setstate"
-      row={1}
+      row={2}
+      col={5}
     />
     <Arrow colspan={2} />
     <Method
@@ -37,7 +38,7 @@ const Updating = ({ advanced }) => (advanced ? (
       docname="static-getderivedstatefromprops"
       type="upgrade"
       col={4}
-      row={5}
+      row={3}
       colspan={2}
     />
   </Section>

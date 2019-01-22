@@ -8,10 +8,19 @@ import Initiator from '../../diagramElements/Initiator';
 
 const Construct = ({ advanced }) => (advanced ? (
   <Section advanced name="Construct" col={1}>
+    <Arrow />
+    <Method
+      main
+      name="customElements.define"
+      docname="custom-element-constructor"
+      type="unknown"
+      row={1}
+      col={1}
+    />
     <Initiator
       secondary
       name="HTML, createElement(), ..."
-      row={1}
+      row={2}
     />
     <Arrow />
     <Method
@@ -19,16 +28,25 @@ const Construct = ({ advanced }) => (advanced ? (
       name="constructor"
       docname="custom-element-constructor"
       type="upgrade"
-      row={5}
+      row={3}
       col={1}
     />
   </Section>
 ) : (
   <Section name="Construct" col={1}>
+    <Arrow />
+    <Method
+      main
+      name="customElements.define"
+      docname="custom-element-constructor"
+      type="unknown"
+      row={2}
+      col={1}
+    />
     <Initiator
       secondary
       name="HTML, createElement(), ..."
-      row={1}
+      row={3}
     />
     <Arrow />
     <Method
@@ -36,7 +54,7 @@ const Construct = ({ advanced }) => (advanced ? (
       name="constructor"
       docname="custom-element-constructor"
       type="upgrade"
-      row={5}
+      row={3}
       col={1}
     />
   </Section>

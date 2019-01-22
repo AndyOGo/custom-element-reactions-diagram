@@ -11,7 +11,7 @@ const Connect = ({ advanced }) => (advanced ? (
     <Initiator
       secondary
       name="appendChild()"
-      row={6}
+      row={4}
       col={2}
       rowspan={2}
     />
@@ -21,7 +21,7 @@ const Connect = ({ advanced }) => (advanced ? (
       name="connectedCallback"
       docname="componentdidmount"
       type="live"
-      row={7}
+      row={5}
       colspan={2}
     />
   </Section>
@@ -30,7 +30,7 @@ const Connect = ({ advanced }) => (advanced ? (
     <Initiator
       secondary
       name="appendChild()"
-      row={6}
+      row={4}
       col={2}
     />
     <Arrow solid colspan={2} />
@@ -39,7 +39,7 @@ const Connect = ({ advanced }) => (advanced ? (
       name="connectedCallback"
       docname="componentdidmount"
       type="live"
-      row={7}
+      row={5}
       colspan={2}
     />
   </Section>
