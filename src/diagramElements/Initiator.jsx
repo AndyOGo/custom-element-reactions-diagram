@@ -8,13 +8,13 @@ import DocLink from './DocLink';
 import Method from './Method';
 
 const Initiator = ({
-  col, rowspan, docname, name, row, secondary,
+  col, colspan, rowspan, docname, name, row, secondary,
 }) => (
   <div
     className={mergeClassNames('Initiator', docname && 'Initiator--hasLink', secondary && 'Initiator--secondary')}
     data-column={col + 1}
     style={{
-      gridColumn: col + 1,
+      gridColumn: `${col + 1} / ${colspan ? `span ${colspan}`: 'auto'}`,
       gridRow: `${row * 3} / span ${rowspan}`,
     }}
   >
@@ -26,6 +26,7 @@ const Initiator = ({
 
 Initiator.propTypes = {
   col: PropTypes.number,
+  colspan: PropTypes.number,
   rowspan: PropTypes.number,
   docname: PropTypes.string,
   name: PropTypes.string.isRequired,
