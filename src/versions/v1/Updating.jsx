@@ -16,6 +16,7 @@ const Updating = ({ advanced }) => (advanced ? (
     />
     <Arrow colspan={2} />
     <Method
+      main
       name="attributeChangedCallback"
       docname="static-getderivedstatefromprops"
       type="upgrade"
@@ -25,7 +26,7 @@ const Updating = ({ advanced }) => (advanced ? (
     />
     <Arrow withAlt solid colspan={2} />
     <Method
-      main
+      secondar
       name="custom render"
       type="live"
       row={6}
@@ -43,6 +44,7 @@ const Updating = ({ advanced }) => (advanced ? (
     />
     <Arrow colspan={2} />
     <Method
+      main
       name="attributeChangedCallback"
       docname="static-getderivedstatefromprops"
       type="upgrade"
@@ -52,7 +54,7 @@ const Updating = ({ advanced }) => (advanced ? (
     />
     <Arrow withAlt solid colspan={2} />
     <Method
-      main
+      secondary
       name="custom render"
       type="live"
       row={6}
