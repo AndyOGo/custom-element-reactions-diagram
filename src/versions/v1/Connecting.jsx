@@ -31,7 +31,7 @@ const Connecting = ({ advanced }) => (advanced ? (
       type="live"
       row={6}
       col={2}
-      colspan={4}
+      colspan={6}
     />
   </Section>
 ) : (
@@ -58,7 +58,7 @@ const Connecting = ({ advanced }) => (advanced ? (
       type="live"
       row={6}
       col={2}
-      colspan={4}
+      colspan={6}
     />
   </Section>
 ));

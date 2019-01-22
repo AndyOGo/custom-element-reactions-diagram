@@ -7,7 +7,7 @@ import Arrow from '../../diagramElements/Arrow';
 import Initiator from '../../diagramElements/Initiator';
 
 const Disconnecting = ({ advanced }) => (advanced ? (
-  <Section advanced name="Disconnecting" col={6} colspan={2}>
+  <Section advanced name="Disconnecting" col={8} colspan={2}>
     <Initiator
       secondary
       name="removeChild()"
@@ -24,7 +24,7 @@ const Disconnecting = ({ advanced }) => (advanced ? (
     />
   </Section>
 ) : (
-  <Section name="Disconnecting" col={6} colspan={2}>
+  <Section name="Disconnecting" col={8} colspan={2}>
     <Initiator
       secondary
       name="removeChild()"
