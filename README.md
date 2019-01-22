@@ -1,10 +1,10 @@
 # Custom Element Reactions diagram
 
-An interactive version for [**Custom Element Reactions**](https://html.spec.whatwg.org/multipage/custom-elements.html#custom-element-reactions) adapted from awesome [interactive react-lifecycle-methods-diagram](http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/) and originally inspired by awesome [React Lifecycle Methods diagram tweeted by Dan Abramov](https://twitter.com/dan_abramov/status/981712092611989509). Built in React, obviously.
+An interactive version for [**Custom Element Reactions**](https://html.spec.whatwg.org/multipage/custom-elements.html#custom-element-reactions) adapted from awesome [interactive react-lifecycle-methods-diagram](https://andyogo.github.io/custom-element-reactions-diagram/) and originally inspired by awesome [React Lifecycle Methods diagram tweeted by Dan Abramov](https://twitter.com/dan_abramov/status/981712092611989509). Built in React, obviously.
 
 I did my best to make the diagram fully accessible, both for keyboard navigation and screen readers for visually impaired people.
 
-[Online version](http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/) is also available!
+[Online version](https://andyogo.github.io/custom-element-reactions-diagram/) is also available!
 
 ## How to use the diagram
 
