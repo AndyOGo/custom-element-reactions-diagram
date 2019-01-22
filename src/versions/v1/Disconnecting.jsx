@@ -27,7 +27,7 @@ const Disconnecting = ({ advanced }) => (advanced ? (
     />
   </Section>
 ) : (
-  <Section name="Disconnecting" col={6} colspan={2}>
+  <Section advanced name="Disconnecting" col={6} colspan={2}>
     <Initiator
       secondary
       name="removeChild()"
