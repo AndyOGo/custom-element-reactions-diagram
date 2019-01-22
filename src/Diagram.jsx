@@ -46,7 +46,7 @@ export default class Diagram extends Component {
       return null;
     }
 
-    const { Construct = null, Connect = null, Disconnect = null, Mounting, Updating = null, Unmounting = null } = diagramElements;
+    const { Constructing = null, Connecting = null, Disconnecting = null, Mounting, Updating = null, Unmounting = null } = diagramElements;
 
     return (
       <>
@@ -58,12 +58,12 @@ export default class Diagram extends Component {
           <Mounting advanced={advanced} />
         }
 
-        {Construct &&
-          <Construct advanced={advanced} />
+        {Constructing &&
+          <Constructing advanced={advanced} />
         }
 
-        {Connect &&
-          <Connect advanced={advanced} />
+        {Connecting &&
+          <Connecting advanced={advanced} />
         }
 
         <Updating advanced={advanced} />
@@ -72,8 +72,8 @@ export default class Diagram extends Component {
           <Unmounting advanced={advanced} />
         }
 
-        {Disconnect &&
-          <Disconnect advanced={advanced} />
+        {Disconnecting &&
+          <Disconnecting advanced={advanced} />
         }
       </>
     );

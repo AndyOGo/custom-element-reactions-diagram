@@ -6,8 +6,8 @@ import Method from '../../diagramElements/Method';
 import Arrow from '../../diagramElements/Arrow';
 import Initiator from '../../diagramElements/Initiator';
 
-const Connect = ({ advanced }) => (advanced ? (
-  <Section advanced name="Connect" col={2} colspan={2}>
+const Connecting = ({ advanced }) => (advanced ? (
+  <Section advanced name="Connecting" col={2} colspan={2}>
     <Initiator
       secondary
       name="appendChild()"
@@ -35,7 +35,7 @@ const Connect = ({ advanced }) => (advanced ? (
     />
   </Section>
 ) : (
-  <Section name="Connect" col={2} colspan={2}>
+  <Section name="Connecting" col={2} colspan={2}>
     <Initiator
       secondary
       name="appendChild()"
@@ -63,8 +63,8 @@ const Connect = ({ advanced }) => (advanced ? (
   </Section>
 ));
 
-Connect.propTypes = {
+Connecting.propTypes = {
   advanced: PropTypes.bool,
 };
 
-export default Connect;
+export default Connecting;

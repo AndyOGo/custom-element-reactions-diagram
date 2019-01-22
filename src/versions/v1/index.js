@@ -1,4 +1,4 @@
-export Connect from './Connect';
-export Construct from './Construct';
+export Connecting from './Connecting';
+export Constructing from './Constructing';
 export Updating from './Updating';
-export Disconnect from './Disconnect';
+export Disconnecting from './Disconnecting';

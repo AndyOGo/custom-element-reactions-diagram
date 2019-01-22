@@ -6,8 +6,8 @@ import Method from '../../diagramElements/Method';
 import Arrow from '../../diagramElements/Arrow';
 import Initiator from '../../diagramElements/Initiator';
 
-const Construct = ({ advanced }) => (advanced ? (
-  <Section advanced name="Construct" col={1}>
+const Constructing = ({ advanced }) => (advanced ? (
+  <Section advanced name="Constructing" col={1}>
     <Arrow />
     <Method
       main
@@ -33,7 +33,7 @@ const Construct = ({ advanced }) => (advanced ? (
     />
   </Section>
 ) : (
-  <Section name="Construct" col={1}>
+  <Section name="Constructing" col={1}>
     <Arrow />
     <Method
       main
@@ -60,8 +60,8 @@ const Construct = ({ advanced }) => (advanced ? (
   </Section>
 ));
 
-Construct.propTypes = {
+Constructing.propTypes = {
   advanced: PropTypes.bool,
 };
 
-export default Construct;
+export default Constructing;

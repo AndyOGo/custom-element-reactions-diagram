@@ -6,8 +6,8 @@ import Method from '../../diagramElements/Method';
 import Arrow from '../../diagramElements/Arrow';
 import Initiator from '../../diagramElements/Initiator';
 
-const Disconnect = ({ advanced }) => (advanced ? (
-  <Section advanced name="Disconnect" col={6} colspan={2}>
+const Disconnecting = ({ advanced }) => (advanced ? (
+  <Section advanced name="Disconnecting" col={6} colspan={2}>
     <Initiator
       secondary
       name="removeChild()"
@@ -24,7 +24,7 @@ const Disconnect = ({ advanced }) => (advanced ? (
     />
   </Section>
 ) : (
-  <Section name="Disconnect" col={6} colspan={2}>
+  <Section name="Disconnecting" col={6} colspan={2}>
     <Initiator
       secondary
       name="removeChild()"
@@ -42,9 +42,9 @@ const Disconnect = ({ advanced }) => (advanced ? (
   </Section>
 ));
 
-Disconnect.propTypes = {
+Disconnecting.propTypes = {
   advanced: PropTypes.bool,
 };
 
-export default Disconnect;
+export default Disconnecting;
 
