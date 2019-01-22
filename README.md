@@ -41,7 +41,7 @@ To contribute, you need to have the following prerequisites installed:
 
 The MIT License.
 
-## Author
+## Authors
 
 <table>
   <tr>
@@ -54,6 +54,16 @@ The MIT License.
       <a href="http://www.scale-unlimited.com">http://www.scale-unlimited.coml</a>
     </td>
   </tr>
+  <tr>
+      <td>
+        <img src="https://github.com/wojtekmaj.png?s=100" width="100">
+      </td>
+      <td>
+        Wojciech Maj<br />
+        <a href="mailto:kontakt@wojtekmaj.pl">kontakt@wojtekmaj.pl</a><br />
+        <a href="http://wojtekmaj.pl">http://wojtekmaj.pl</a>
+      </td>
+    </tr>
 </table>
 
 ## Thank you
