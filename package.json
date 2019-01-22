@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Interactive Custom Element reactions diagram.",
   "scripts": {
-    "build": "parcel build src/index.html --public-url ./",
+    "build": "parcel build src/index.html --public-url ./ --out-dir docs",
     "clean": "rimraf dist",
     "start": "parcel src/index.html",
     "test": "yarn run test-eslint",
