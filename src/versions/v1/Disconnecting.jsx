@@ -11,6 +11,8 @@ const Disconnecting = ({ advanced }) => (advanced ? (
     <Initiator
       secondary
       name="removeChild()"
+      docname="dom-node-removechild"
+      docurl="https://dom.spec.whatwg.org"
       row={4}
       colspan={2}
     />
@@ -18,7 +20,7 @@ const Disconnecting = ({ advanced }) => (advanced ? (
     <Method
       main
       name="disconnectedCallback"
-      docname="componentdidmount"
+      docname="custom-element-reactions:becomes-disconnected"
       type="live"
       row={5}
       colspan={2}
@@ -29,6 +31,8 @@ const Disconnecting = ({ advanced }) => (advanced ? (
     <Initiator
       secondary
       name="removeChild()"
+      docname="dom-node-removechild"
+      docurl="https://dom.spec.whatwg.org"
       row={4}
       colspan={2}
     />
@@ -36,7 +40,7 @@ const Disconnecting = ({ advanced }) => (advanced ? (
     <Method
       main
       name="disconnectedCallback"
-      docname="componentdidmount"
+      docname="custom-element-reactions:becomes-disconnected"
       type="live"
       row={5}
       colspan={2}

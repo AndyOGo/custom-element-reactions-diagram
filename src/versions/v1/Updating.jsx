@@ -10,9 +10,20 @@ import Arrow from '../../diagramElements/Arrow';
 const Updating = ({ advanced }) => (advanced ? (
   <Section advanced name="Updating" col={2} colspan={4}>
     <Subsection col={2}>
+      <Method
+        main
+        name="observedAttributes"
+        docname="concept-custom-element-definition-observed-attributes"
+        type="unknown"
+        col={2}
+        row={1}
+        colspan={2}
+      />
+      <Arrow row={2} colspan={2} />
         <Initiator
           name="setAttribute()"
-          docname="setstate"
+          docname="dom-element-setattribute"
+          docurl="https://dom.spec.whatwg.org"
           row={2}
           col={2}
           colspan={2}
@@ -21,7 +32,7 @@ const Updating = ({ advanced }) => (advanced ? (
         <Method
           main
           name="attributeChangedCallback"
-          docname="static-getderivedstatefromprops"
+          docname="custom-element-reactions:concept-element-attributes-change"
           type="upgrade"
           col={2}
           row={3}
@@ -62,7 +73,8 @@ const Updating = ({ advanced }) => (advanced ? (
       <Subsection col={2}>
           <Initiator
             name="adoptNode()"
-            docname="setstate"
+            docname="dom-document-adoptnode"
+            docurl="https://dom.spec.whatwg.org"
             row={4}
             col={3}
             colspan={2}
@@ -71,7 +83,7 @@ const Updating = ({ advanced }) => (advanced ? (
           <Method
             main
             name="adoptedCallback"
-            docname="static-getderivedstatefromprops"
+            docname="custom-element-reactions:concept-node-adopt"
             type="live"
             col={3}
             row={5}
@@ -92,7 +104,8 @@ const Updating = ({ advanced }) => (advanced ? (
   <Section name="Updating" col={2} colspan={2}>
     <Initiator
       name="setAttribute()"
-      docname="setstate"
+      docname="dom-element-setattribute"
+      docurl="https://dom.spec.whatwg.org"
       row={2}
       col={5}
     />
@@ -100,7 +113,7 @@ const Updating = ({ advanced }) => (advanced ? (
     <Method
       main
       name="attributeChangedCallback"
-      docname="static-getderivedstatefromprops"
+      docname="custom-element-reactions:concept-element-attributes-change"
       type="upgrade"
       col={2}
       row={3}

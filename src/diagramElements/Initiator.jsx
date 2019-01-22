@@ -8,7 +8,7 @@ import DocLink from './DocLink';
 import Method from './Method';
 
 const Initiator = ({
-  col, colspan, rowspan, docname, name, row, secondary,
+  col, colspan, rowspan, docname, name, row, secondary, ...props,
 }) => (
   <div
     className={mergeClassNames('Initiator', docname && 'Initiator--hasLink', secondary && 'Initiator--secondary')}
@@ -19,7 +19,7 @@ const Initiator = ({
     }}
   >
     <h4>
-      <DocLink docname={docname} name={name} />
+      <DocLink docname={docname} name={name} {...props} />
     </h4>
   </div>
 );

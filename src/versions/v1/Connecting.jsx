@@ -12,14 +12,16 @@ const Connecting = ({ advanced }) => (advanced ? (
       <Method
         main
         name="define"
-        docname="custom-element-constructor"
+        docname="element-definition"
         type="unknown"
         row={1}
         col={1}
       />
       <Initiator
         secondary
-        name="HTML, createElement(), ..."
+        name="createElement()"
+        docname="dom-document-createelement"
+        docurl="https://dom.spec.whatwg.org"
         row={2}
       />
       <Arrow />
@@ -34,6 +36,8 @@ const Connecting = ({ advanced }) => (advanced ? (
     <Initiator
       secondary
       name="appendChild()"
+      docname="dom-node-appendchild"
+      docurl="https://dom.spec.whatwg.org"
       row={4}
       col={1}
     />
@@ -41,7 +45,7 @@ const Connecting = ({ advanced }) => (advanced ? (
     <Method
       main
       name="connectedCallback"
-      docname="componentdidmount"
+      docname="custom-element-reactions:becomes-connected"
       type="live"
       row={5}
       colspan={1}
@@ -68,7 +72,7 @@ const Connecting = ({ advanced }) => (advanced ? (
     <Method
       main
       name="connectedCallback"
-      docname="componentdidmount"
+      docname="custom-element-reactions:becomes-connected"
       type="live"
       row={5}
       colspan={2}

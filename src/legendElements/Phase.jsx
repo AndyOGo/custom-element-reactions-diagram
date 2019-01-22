@@ -4,10 +4,11 @@ import mergeClassNames from 'merge-class-names';
 
 import './Phase.less';
 
+import DocLink from '../diagramElements/DocLink';
 import T from '../i18n';
 
 const Phase = ({
-  children, last, name, row, rowspan,
+  children, last, name, row, rowspan, docname, ...props,
 }) => (
   <div
     className={mergeClassNames('Phase', last && 'Phase--last')}
@@ -17,9 +18,11 @@ const Phase = ({
     }}
   >
     <h3>
-      <T name={name}>
-        {'“{name} phase”'}
-      </T>
+      <DocLink docname={docname} {...props}>
+        <T name={name}>
+          {'“{name} phase”'}
+        </T>
+      </DocLink>
     </h3>
     <p>
       <T>

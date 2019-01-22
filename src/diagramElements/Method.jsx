@@ -16,6 +16,7 @@ const Method = ({
   row,
   secondary,
   type,
+  ...props,
 }) => (
   <li
     className={mergeClassNames(
@@ -31,7 +32,7 @@ const Method = ({
       gridRow: `${row * 3} / span 2`,
     }}
   >
-    <DocLink docname={docname} name={name} />
+    <DocLink docname={docname} name={name} {...props} />
   </li>
 );
 
