@@ -4,8 +4,7 @@ import PropTypes from 'prop-types';
 import { isReactVersion } from './propTypes';
 
 const diagramVersions = {
-  16.3: import('./versions/16.3'),
-  16.4: import('./versions/16.4'),
+  v1: import('./versions/v1'),
 };
 
 export default class Diagram extends Component {
@@ -45,16 +44,19 @@ export default class Diagram extends Component {
       return null;
     }
 
-    const { Mounting, Updating, Unmounting } = diagramElements;
+    const { Connecting, Updating, Disconnecting } = diagramElements;
 
     return (
       <>
         <h2 className="hidden">
-          Component lifecycle
+          Custom Element Reactions
         </h2>
-        <Mounting advanced={advanced} />
+
+        <Connecting advanced={advanced} />
+
         <Updating advanced={advanced} />
-        <Unmounting advanced={advanced} />
+
+        <Disconnecting advanced={advanced} />
       </>
     );
   }

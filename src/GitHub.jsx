@@ -25,7 +25,7 @@ export default class GitHub extends Component {
         &nbsp;
         <a
           className="GitHub"
-          href="https://github.com/wojtekmaj/react-lifecycle-methods-diagram"
+          href="https://github.com/AndyOGo/custom-element-reactions-diagram"
           target="_blank"
           rel="noopener noreferrer"
           title={title}

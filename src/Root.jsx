@@ -6,7 +6,7 @@ import Options from './Options';
 import DiagramWithLegend from './DiagramWithLegend';
 import Footer from './Footer';
 
-import { supportedReactVersions } from './propTypes';
+import { supportedCustomElementVersions } from './propTypes';
 import { getMatchingLocale } from './i18n/i18n';
 
 /**
@@ -33,7 +33,7 @@ const getLocalStorage = (key, defaultValue) => (
 
 const getLocalStorageFlag = (key, defaultValue) => getLocalStorage(key, defaultValue) === 'true';
 
-const latestReactVersion = [...supportedReactVersions].pop();
+const latestReactVersion = [...supportedCustomElementVersions].pop();
 
 const userLocale = getLocalStorage('locale', getMatchingLocale());
 

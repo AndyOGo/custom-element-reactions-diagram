@@ -16,6 +16,7 @@ const Method = ({
   row,
   secondary,
   type,
+  ...props
 }) => (
   <li
     className={mergeClassNames(
@@ -31,7 +32,7 @@ const Method = ({
       gridRow: `${row * 3} / span 2`,
     }}
   >
-    <DocLink docname={docname} name={name} />
+    <DocLink docname={docname} name={name} {...props} />
   </li>
 );
 
@@ -44,7 +45,7 @@ Method.propTypes = {
   name: PropTypes.string.isRequired,
   row: PropTypes.number.isRequired,
   secondary: PropTypes.bool,
-  type: PropTypes.oneOf(['render', 'pre-commit', 'commit']),
+  type: PropTypes.oneOf(['unknown', 'upgrade', 'live', 'custom']),
 };
 
 Method.defaultProps = {

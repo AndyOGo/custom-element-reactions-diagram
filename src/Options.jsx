@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import './Options.less';
 
 import T from './i18n';
-import { supportedReactVersions, isReactVersion } from './propTypes';
+import { supportedCustomElementVersions, isReactVersion } from './propTypes';
 import { supportedLocales } from './i18n/i18n';
 import { countryCodeToFlagEmoji } from './shared/utils';
 
@@ -53,20 +53,20 @@ const Options = ({
       <input type="checkbox" id="showAdvanced" checked={advanced} onChange={toggleAdvanced} />
       <label htmlFor="showAdvanced">
         <T>
-          Show less common lifecycles
+          Show less custom reactions
         </T>
       </label>
     </div>
     <div>
       <label htmlFor="reactVersion">
         <T>
-          React version
+          Custom Element version
         </T>
       </label>
       <SelectOption
         id="reactVersion"
-        options={supportedReactVersions.map(value => ({
-          label: value === '16.4' ? '^16.4' : value,
+        options={supportedCustomElementVersions.map(value => ({
+          label: value,
           value,
         }))}
         onChange={toggleReactVersion}
