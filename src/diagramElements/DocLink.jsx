@@ -9,8 +9,13 @@ import { Consumer } from '../i18n/LangObserver';
 class DocLinkInternal extends Component {
   static propTypes = {
     docname: PropTypes.string,
+    docurl: PropTypes.string,
     locale: PropTypes.string,
     name: PropTypes.string.isRequired,
+  };
+
+  static defaultProps = {
+    docurl: 'https://html.spec.whatwg.org/multipage/custom-elements.html',
   };
 
   state = {
@@ -49,7 +54,7 @@ class DocLinkInternal extends Component {
   }
 
   render() {
-    const { docname } = this.props;
+    const { docurl, docname } = this.props;
     const { translatedTitle: title, translatedName: name } = this.state;
 
     const children = splitUpperCase(name);
@@ -58,7 +63,7 @@ class DocLinkInternal extends Component {
       docname
         ? (
           <a
-            href={`https://reactjs.org/docs/react-component.html#${docname}`}
+            href={`${docurl}#${docname}`}
             target="_blank"
             rel="noopener noreferrer"
             title={title}
