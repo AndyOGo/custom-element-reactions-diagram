@@ -1,14 +1,13 @@
 {
-  "React lifecycle methods diagram": "Diagrama de los ciclos de vida de React",
+  "Custom Element reactions diagram": "Diagrama de los ciclos de vida de React",
   "Options": "Opciones",
-  "Show less common lifecycles": "Mostrar ciclos de vida menos comunes",
-  "Mounting": "Montaje",
+  "Show less common reactions": "Mostrar ciclos de vida menos comunes",
+  "Connecting": "Montaje",
   "Updating": "Actualización",
-  "Unmounting": "Desmontaje",
+  "Disonnecting": "Desmontaje",
   "“{name} phase”": "“Fase {name}”",
-  "Pure and has no side effects. May be paused, aborted or restarted by React.": "Pura y sin efectos colaterales, puede ser pausada, abortada o reiniciada por React.",
+  "Still waiting for custom element definition.": "Pura y sin efectos colaterales, puede ser pausada, abortada o reiniciada por React.",
   "Can read the DOM.": "Puede leer el DOM.",
   "Can work with DOM, run side effects, schedule updates.": "Puede operar sobre el DOM, ejecutar side-effects, agendar actualizaciones.",
-  "React updates DOM and refs": "React actualiza el DOM y referencias",
   "See project's page on GitHub (opens in a new tab)": "Ver la página del proyecto en GitHub (se abre en un nuevo tab)"
 }
