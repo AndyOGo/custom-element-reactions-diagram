@@ -53,7 +53,6 @@ const Updating = ({ advanced }) => (advanced ? (
       <Method
         secondary
         name="custom properties"
-        docname="static-getderivedstatefromprops"
         type="custom"
         col={4}
         row={3}
@@ -146,7 +145,6 @@ const Updating = ({ advanced }) => (advanced ? (
       <Method
         secondary
         name="custom properties"
-        docname="static-getderivedstatefromprops"
         type="custom"
         col={4}
         row={3}
