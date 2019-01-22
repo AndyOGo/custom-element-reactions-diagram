@@ -1,0 +1,106 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  margin: 20px;
+  padding: 0;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+.hidden {
+  width: 0;
+  height: 0;
+  position: absolute;
+  opacity: 0;
+  overflow: hidden;
+}
+p {
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  font-weight: 300;
+}
+h1 {
+  width: 0;
+  height: 0;
+  position: absolute;
+  opacity: 0;
+  overflow: hidden;
+}
+.Options {
+  margin: 30px auto 30px;
+  border: 0;
+  padding: 0 0 0 calc(90px + 5vw);
+  text-align: center;
+}
+.Options > div {
+  display: inline-block;
+}
+.Options > div:first-of-type {
+  display: block;
+  font-size: 24px;
+  margin-bottom: 0.5em;
+}
+.Options > div:not(:last-child) {
+  margin-right: 1em;
+}
+.Options legend {
+  width: 0;
+  height: 0;
+  position: absolute;
+  opacity: 0;
+  overflow: hidden;
+}
+.Options label {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+.Options input,
+.Options select {
+  margin: 0 4px;
+  font: inherit;
+}
+@media print {
+  .Options {
+    display: none;
+  }
+}
+.DiagramWithLegend {
+  max-width: 1080px;
+  display: grid;
+  grid-gap: 20px 20px;
+  grid-template-columns: minmax(86px, auto) minmax(144px, auto) minmax(75px, auto) minmax(52px, auto) minmax(75px, auto) minmax(148px, auto);
+  margin: 0 auto;
+}
+.Phase {
+  margin-top: -10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.Phase:not(.Phase--last) {
+  border-bottom: 2px dotted black;
+}
+.Phase h3 {
+  font-weight: 400;
+}
+.Phase p {
+  max-width: 10em;
+  margin: 5px auto 10px auto;
+}
+footer {
+  margin-top: 2em;
+  text-align: center;
+}
+@media print {
+  footer {
+    display: none;
+  }
+}
