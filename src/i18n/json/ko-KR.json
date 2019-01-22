@@ -10,6 +10,7 @@
   "“{name} phase”": "“{name} 단계”",
   "Still waiting for custom element definition.": "순수하고 부작용이 없습니다. React에 의해 일시 중지, 중단 또는 재시작 될 수 있습니다",
   "Can read the DOM.": "DOM을 읽을 수 있습니다.",
+  "Can not read the DOM.": "Can not read the DOM.",
   "Can work with DOM, run side effects, schedule updates.": "DOM을 사용하여 부작용을 실행하고 업데이트를 예약 할 수 있습니다.",
   "Read docs for {name} (opens in a new tab)": "{name}에 대한 설명서를 읽습니다 (새 탭에서 열림).",
   "See project's page on GitHub (opens in a new tab)": "GitHub에서 프로젝트 페이지를 봅니다 (새 탭에서 열림).",

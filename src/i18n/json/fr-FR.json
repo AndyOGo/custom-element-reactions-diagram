@@ -9,6 +9,7 @@
   "Disonnecting": "Démontage",
   "“{name} phase”": "“Phase de {name}”",
   "Still waiting for custom element definition.": "Méthodes pures, sans effets secondaire. Peuvent être interrompues, annulées  ou redémarrées par React.",
+  "Can not read the DOM.": "Can not read the DOM.",
   "Can read the DOM.": "Peuvent lire le DOM.",
   "Can work with DOM, run side effects, schedule updates.": "Peuvent opérer sur le DOM, engendrer des effets secondaire, programmer des mise à jour.",
   "Read docs for {name} (opens in a new tab)": "Lire la documentation pour {name} (s'ouvre dans un nouvel onglet)",

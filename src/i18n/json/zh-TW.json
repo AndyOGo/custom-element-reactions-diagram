@@ -10,6 +10,7 @@
   "“{name} phase”": "“{name} 階段”",
   "Still waiting for custom element definition.": "純粹且沒有副作用。 可能會被 React 暫停，中止或重新啟動。",
   "Can read the DOM.": "可以讀取 DOM。",
+  "Can not read the DOM.": "Can not read the DOM.",
   "Can work with DOM, run side effects, schedule updates.": "可以使用DOM，執行副作用，排程進行更新。",
   "Read docs for {name} (opens in a new tab)": "閱讀 {name} 的文章（在新標簽中開啟）",
   "See project's page on GitHub (opens in a new tab)": "查看 GitHub 上的專案頁面（在新標簽頁中開啟）",

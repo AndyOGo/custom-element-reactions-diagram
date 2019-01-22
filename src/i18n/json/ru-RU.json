@@ -10,6 +10,7 @@
   "“{name} phase”": "“Фаза {name}”",
   "Still waiting for custom element definition.": "Чистая и не имеет побочных эффектов. Может быть приостановлена, прервана и перезапущена самим React'ом.",
   "Can read the DOM.": "Можно производить чтение DOM'a.",
+  "Can not read the DOM.": "Can not read the DOM.",
   "Can work with DOM, run side effects, schedule updates.": "Можно работать с DOM'ом, пускать побочные эффекты, намечать обновления.",
   "Read docs for {name} (opens in a new tab)": "Просмотреть документацию о {name} (откроется в новой вкладке)",
   "See project's page on GitHub (opens in a new tab)": "Посетить страничку проекта на GitHub (откроется в новой вкладке)",

@@ -7,6 +7,7 @@
   "Disonnecting": "Desmontaje",
   "“{name} phase”": "“Fase {name}”",
   "Still waiting for custom element definition.": "Pura y sin efectos colaterales, puede ser pausada, abortada o reiniciada por React.",
+  "Can not read the DOM.": "Can not read the DOM.",
   "Can read the DOM.": "Puede leer el DOM.",
   "Can work with DOM, run side effects, schedule updates.": "Puede operar sobre el DOM, ejecutar side-effects, agendar actualizaciones.",
   "See project's page on GitHub (opens in a new tab)": "Ver la página del proyecto en GitHub (se abre en un nuevo tab)"

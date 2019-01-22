@@ -10,6 +10,7 @@
     "“{name} phase”": "“{name}” aşaması",
     "Still waiting for custom element definition.": "Saftır ve hiçbir yan etkisi yoktur. React tarafından duraklatılabilir, iptal edilebilir ya da yeniden başlatılabilir.",
     "Can read the DOM.": "DOM okuyabilir.",
+    "Can not read the DOM.": "Can not read the DOM.",
     "Can work with DOM, run side effects, schedule updates.": "DOM ile çalışabilir, yan etkileri çalıştırabilir, güncellemeleri planlayabilir.",
     "Read docs for {name} (opens in a new tab)": "{Name} için dokümanları oku (yeni bir sekmede açılır)",
     "See project's page on GitHub (opens in a new tab)": "GitHub'daki projenin sayfasına bakın (yeni bir sekmede açılır)",
