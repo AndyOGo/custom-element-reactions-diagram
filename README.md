@@ -46,12 +46,12 @@ The MIT License.
 <table>
   <tr>
     <td>
-      <img src="https://github.com/wojtekmaj.png?s=100" width="100">
+      <img src="https://github.com/AndyOGo.png?s=100" width="100">
     </td>
     <td>
-      Wojciech Maj<br />
-      <a href="mailto:kontakt@wojtekmaj.pl">kontakt@wojtekmaj.pl</a><br />
-      <a href="http://wojtekmaj.pl">http://wojtekmaj.pl</a>
+      Andreas Deuschlinger<br />
+      <a href="mailto:andy.782542@gmail.com">andy.782542@gmail.com</a><br />
+      <a href="http://www.scale-unlimited.com">http://www.scale-unlimited.coml</a>
     </td>
   </tr>
 </table>

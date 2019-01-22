@@ -10,10 +10,14 @@
     "test-eslint": "eslint src/ --ext .jsx,.js"
   },
   "author": {
-    "name": "Wojciech Maj",
-    "email": "kontakt@wojtekmaj.pl"
+    "name": "Andreas Deuschlinger",
+    "email": "andy.782542@gmail.com"
   },
   "contributors": [
+    {
+      "name": "Wojciech Maj",
+      "email": "kontakt@wojtekmaj.pl"
+    },,
     {
       "name": "Andrew Jefferson",
       "email": "andrew.jefferson@arkadyt.com"
