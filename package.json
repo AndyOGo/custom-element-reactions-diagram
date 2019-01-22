@@ -1,7 +1,7 @@
 {
-  "name": "react-lifecycle-methods-diagram",
+  "name": "custom-element-reactions-diagram",
   "version": "1.0.0",
-  "description": "Interactive React lifecycle methods diagram.",
+  "description": "Interactive Custom Element reactions diagram.",
   "scripts": {
     "build": "parcel build src/index.html --public-url ./",
     "clean": "rimraf dist",
