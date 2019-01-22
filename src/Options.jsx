@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import './Options.less';
 
 import T from './i18n';
-import { supportedReactVersions, isReactVersion } from './propTypes';
+import { supportedCustomElementVersions, isReactVersion } from './propTypes';
 import { supportedLocales } from './i18n/i18n';
 import { countryCodeToFlagEmoji } from './shared/utils';
 
@@ -65,8 +65,8 @@ const Options = ({
       </label>
       <SelectOption
         id="reactVersion"
-        options={supportedReactVersions.map(value => ({
-          label: value === '16.4' ? '^16.4' : value,
+        options={supportedCustomElementVersions.map(value => ({
+          label: value,
           value,
         }))}
         onChange={toggleReactVersion}
