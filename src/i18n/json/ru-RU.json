@@ -11,7 +11,6 @@
   "Pure and has no side effects. May be paused, aborted or restarted by React.": "Чистая и не имеет побочных эффектов. Может быть приостановлена, прервана и перезапущена самим React'ом.",
   "Can read the DOM.": "Можно производить чтение DOM'a.",
   "Can work with DOM, run side effects, schedule updates.": "Можно работать с DOM'ом, пускать побочные эффекты, намечать обновления.",
-  "React updates DOM and refs": "React обновляет DOM и ссылки (refs)",
   "Read docs for {name} (opens in a new tab)": "Просмотреть документацию о {name} (откроется в новой вкладке)",
   "See project's page on GitHub (opens in a new tab)": "Посетить страничку проекта на GitHub (откроется в новой вкладке)",
   "See project on": "Посетить страничку проекта на"
