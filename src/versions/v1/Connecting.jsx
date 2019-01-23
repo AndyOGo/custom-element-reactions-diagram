@@ -9,14 +9,12 @@ import Initiator from '../../diagramElements/Initiator';
 const Connecting = ({ advanced }) => (advanced ? (
   <Section advanced name="Connecting" col={1} colspan={1}>
       <Initiator
-        secondary
         name="<autonomous-element>"
         docname="custom-elements-autonomous-example"
         row={1}
         col={1}
       />
       <Initiator
-        secondary
         name='<div is="built-in">'
         docname="custom-elements-customized-builtin-example"
         row={2}
@@ -32,7 +30,6 @@ const Connecting = ({ advanced }) => (advanced ? (
       col={1}
     />
     <Initiator
-      secondary
       name="createElement()"
       docname="dom-document-createelement"
       docurl="https://dom.spec.whatwg.org"
@@ -48,7 +45,6 @@ const Connecting = ({ advanced }) => (advanced ? (
       col={1}
     />
     <Initiator
-      secondary
       name="appendChild()"
       docname="dom-node-appendchild"
       docurl="https://dom.spec.whatwg.org"
@@ -77,14 +73,12 @@ const Connecting = ({ advanced }) => (advanced ? (
 ) : (
   <Section advanced name="Connecting" col={1} colspan={1}>
       <Initiator
-        secondary
         name="<autonomous-element>"
         docname="custom-elements-autonomous-example"
         row={1}
         col={1}
       />
       <Initiator
-        secondary
         name='<div is="built-in">'
         docname="custom-elements-customized-builtin-example"
         row={2}
@@ -100,7 +94,6 @@ const Connecting = ({ advanced }) => (advanced ? (
         col={1}
       />
       <Initiator
-        secondary
         name="createElement()"
         docname="dom-document-createelement"
         docurl="https://dom.spec.whatwg.org"
@@ -116,7 +109,6 @@ const Connecting = ({ advanced }) => (advanced ? (
         col={1}
       />
       <Initiator
-        secondary
         name="appendChild()"
         docname="dom-node-appendchild"
         docurl="https://dom.spec.whatwg.org"
