@@ -1,7 +1,7 @@
 {
   "Custom Element reactions diagram": "Diagramme de cycle de vie des méthodes React",
   "Options": "Options",
-  "Show less common reactions": "Montrer les cycles de vie moins courant",
+  "Show custom reactions": "Montrer les cycles de vie moins courant",
   "React version": "Version de React",
   "Language": "Langue",
   "Connecting": "Montage",

@@ -16,15 +16,15 @@ const Updating = ({ advanced }) => (advanced ? (
         docname="concept-custom-element-definition-observed-attributes"
         type="unknown"
         col={2}
-        row={1}
+        row={3}
         colspan={2}
       />
-      <Arrow row={2} colspan={2} />
+      <Arrow row={4} colspan={2} />
       <Initiator
         name="setAttribute()"
         docname="dom-element-setattribute"
         docurl="https://dom.spec.whatwg.org"
-        row={2}
+        row={4}
         col={2}
         colspan={2}
       />
@@ -35,15 +35,15 @@ const Updating = ({ advanced }) => (advanced ? (
         docname="custom-element-reactions:concept-element-attributes-change"
         type="upgrade"
         col={2}
-        row={3}
+        row={5}
         colspan={2}
       />
-      <Arrow withAlt solid row={4} col={2} colspan={2} />
+      <Arrow withAlt solid row={6} col={2} colspan={2} />
       <Method
         secondar
         name="custom render"
         type="custom"
-        row={6}
+        row={8}
         col={1}
         colspan={5}
       />
@@ -55,7 +55,7 @@ const Updating = ({ advanced }) => (advanced ? (
         name="custom properties"
         type="custom"
         col={4}
-        row={3}
+        row={5}
         colspan={2}
       />
       <Arrow withAlt solid col={4} colspan={2} />
@@ -63,7 +63,7 @@ const Updating = ({ advanced }) => (advanced ? (
         secondar
         name="custom render"
         type="custom"
-        row={6}
+        row={8}
         col={1}
         colspan={5}
       />
@@ -74,7 +74,7 @@ const Updating = ({ advanced }) => (advanced ? (
         name="adoptNode()"
         docname="dom-document-adoptnode"
         docurl="https://dom.spec.whatwg.org"
-        row={4}
+        row={6}
         col={3}
         colspan={2}
       />
@@ -85,15 +85,15 @@ const Updating = ({ advanced }) => (advanced ? (
         docname="custom-element-reactions:concept-node-adopt"
         type="live"
         col={3}
-        row={5}
+        row={7}
         colspan={2}
       />
-      <Arrow withAlt solid row={4} col={3} colspan={2} />
+      <Arrow withAlt solid row={6} col={3} colspan={2} />
       <Method
         secondar
         name="custom render"
         type="custom"
-        row={6}
+        row={8}
         col={1}
         colspan={5}
       />
@@ -108,15 +108,15 @@ const Updating = ({ advanced }) => (advanced ? (
         docname="concept-custom-element-definition-observed-attributes"
         type="unknown"
         col={2}
-        row={1}
+        row={3}
         colspan={2}
       />
-      <Arrow row={2} colspan={2} />
+      <Arrow row={4} colspan={2} />
       <Initiator
         name="setAttribute()"
         docname="dom-element-setattribute"
         docurl="https://dom.spec.whatwg.org"
-        row={2}
+        row={4}
         col={2}
         colspan={2}
       />
@@ -127,15 +127,15 @@ const Updating = ({ advanced }) => (advanced ? (
         docname="custom-element-reactions:concept-element-attributes-change"
         type="upgrade"
         col={2}
-        row={3}
+        row={5}
         colspan={2}
       />
-      <Arrow withAlt solid row={4} col={2} colspan={2} />
+      <Arrow withAlt solid row={6} col={2} colspan={2} />
       <Method
         secondar
         name="custom render"
         type="custom"
-        row={6}
+        row={8}
         col={1}
         colspan={5}
       />
@@ -147,7 +147,7 @@ const Updating = ({ advanced }) => (advanced ? (
         name="custom properties"
         type="custom"
         col={4}
-        row={3}
+        row={5}
         colspan={2}
       />
       <Arrow withAlt solid col={4} colspan={2} />
@@ -155,7 +155,7 @@ const Updating = ({ advanced }) => (advanced ? (
         secondar
         name="custom render"
         type="custom"
-        row={6}
+        row={8}
         col={1}
         colspan={5}
       />
@@ -166,7 +166,7 @@ const Updating = ({ advanced }) => (advanced ? (
         name="adoptNode()"
         docname="dom-document-adoptnode"
         docurl="https://dom.spec.whatwg.org"
-        row={4}
+        row={6}
         col={3}
         colspan={2}
       />
@@ -177,15 +177,15 @@ const Updating = ({ advanced }) => (advanced ? (
         docname="custom-element-reactions:concept-node-adopt"
         type="live"
         col={3}
-        row={5}
+        row={7}
         colspan={2}
       />
-      <Arrow withAlt solid row={4} col={3} colspan={2} />
+      <Arrow withAlt solid row={6} col={3} colspan={2} />
       <Method
         secondar
         name="custom render"
         type="custom"
-        row={6}
+        row={8}
         col={1}
         colspan={5}
       />

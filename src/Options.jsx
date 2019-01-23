@@ -53,7 +53,7 @@ const Options = ({
       <input type="checkbox" id="showAdvanced" checked={advanced} onChange={toggleAdvanced} />
       <label htmlFor="showAdvanced">
         <T>
-          Show less custom reactions
+          Show custom reactions
         </T>
       </label>
     </div>

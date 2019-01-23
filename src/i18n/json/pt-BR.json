@@ -1,7 +1,7 @@
 {
   "Custom Element reactions diagram": "Diagrama dos métodos de ciclo de vida do React",
   "Options": "Opções",
-  "Show less common reactions": "Mostrar ciclos de vida menos comuns",
+  "Show custom reactions": "Mostrar ciclos de vida menos comuns",
   "Connecting": "Montagem",
   "Updating": "Atualização",
   "Disonnecting": "Desmontagem",
