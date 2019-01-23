@@ -40,7 +40,7 @@ const Updating = ({ advanced }) => (advanced ? (
       />
       <Arrow withAlt solid row={6} col={2} colspan={2} />
       <Method
-        secondar
+        secondary
         name="custom render"
         type="custom"
         row={8}
@@ -60,7 +60,7 @@ const Updating = ({ advanced }) => (advanced ? (
       />
       <Arrow withAlt solid col={4} colspan={2} />
       <Method
-        secondar
+        secondary
         name="custom render"
         type="custom"
         row={8}
@@ -90,7 +90,7 @@ const Updating = ({ advanced }) => (advanced ? (
       />
       <Arrow withAlt solid row={6} col={3} colspan={2} />
       <Method
-        secondar
+        secondary
         name="custom render"
         type="custom"
         row={8}
@@ -132,7 +132,7 @@ const Updating = ({ advanced }) => (advanced ? (
       />
       <Arrow withAlt solid row={6} col={2} colspan={2} />
       <Method
-        secondar
+        secondary
         name="custom render"
         type="custom"
         row={8}
@@ -152,7 +152,7 @@ const Updating = ({ advanced }) => (advanced ? (
       />
       <Arrow withAlt solid col={4} colspan={2} />
       <Method
-        secondar
+        secondary
         name="custom render"
         type="custom"
         row={8}
@@ -182,7 +182,7 @@ const Updating = ({ advanced }) => (advanced ? (
       />
       <Arrow withAlt solid row={6} col={3} colspan={2} />
       <Method
-        secondar
+        secondary
         name="custom render"
         type="custom"
         row={8}
