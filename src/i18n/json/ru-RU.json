@@ -1,7 +1,7 @@
 {
   "Custom Element reactions diagram": "Диаграмма функций жизненного цикла React компонента",
   "Options": "Опции",
-  "Show less common reactions": "Показать реже используемые функции",
+  "Show custom reactions": "Показать реже используемые функции",
   "React version": "Версия React'a",
   "Language": "Язык",
   "Connecting": "Монтирование",

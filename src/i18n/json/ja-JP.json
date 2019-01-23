@@ -1,7 +1,7 @@
 {
   "Custom Element reactions diagram": "Reactライフサイクルメソッドダイアグラム",
   "Options": "オプション",
-  "Show less common reactions": "一般的でないライフライクルも表示",
+  "Show custom reactions": "一般的でないライフライクルも表示",
   "React version": "React バージョン",
   "Language": "言語",
   "Connecting": "マウント時",

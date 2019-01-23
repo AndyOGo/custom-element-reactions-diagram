@@ -1,7 +1,7 @@
 {
   "Custom Element reactions diagram": "React生命周期方法圖",
   "Options": "選項",
-  "Show less common reactions": "顯示不常用的生命周期",
+  "Show custom reactions": "顯示不常用的生命周期",
   "React version": "React版本",
   "Language": "語言",
   "Connecting": "掛載時",
