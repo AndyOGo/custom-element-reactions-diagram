@@ -9,7 +9,6 @@ import Initiator from '../../diagramElements/Initiator';
 const Disconnecting = ({ advanced }) => (advanced ? (
   <Section advanced name="Disconnecting" col={6} colspan={2}>
     <Initiator
-      secondary
       name="removeChild()"
       docname="dom-node-removechild"
       docurl="https://dom.spec.whatwg.org"
@@ -29,7 +28,6 @@ const Disconnecting = ({ advanced }) => (advanced ? (
 ) : (
   <Section advanced name="Disconnecting" col={6} colspan={2}>
     <Initiator
-      secondary
       name="removeChild()"
       docname="dom-node-removechild"
       docurl="https://dom.spec.whatwg.org"
