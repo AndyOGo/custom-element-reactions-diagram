@@ -7,7 +7,7 @@ import './Initiator.less';
 import DocLink from './DocLink';
 
 const Initiator = ({
-  col, colspan, rowspan, docname, name, row, secondary, ...props
+  col, colspan, rowspan, docname, name, row, secondary, style, ...props
 }) => (
   <div
     className={mergeClassNames('Initiator', docname && 'Initiator--hasLink', secondary && 'Initiator--secondary')}
@@ -15,6 +15,7 @@ const Initiator = ({
     style={{
       gridColumn: `${col + 1} / ${colspan ? `span ${colspan}` : 'auto'}`,
       gridRow: `${row * 3} / span ${rowspan}`,
+      ...style,
     }}
   >
     <h4>
@@ -31,6 +32,7 @@ Initiator.propTypes = {
   row: PropTypes.number.isRequired,
   rowspan: PropTypes.number,
   secondary: PropTypes.bool,
+  style: PropTypes.object,
 };
 
 Initiator.defaultProps = {

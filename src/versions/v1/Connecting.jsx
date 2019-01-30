@@ -13,12 +13,14 @@ const Connecting = ({ advanced }) => (advanced ? (
         docname="custom-elements-autonomous-example"
         row={1}
         col={1}
+        style={{ marginBottom: '-40px' }}
       />
       <Initiator
         name='<div is="built-in">'
         docname="custom-elements-customized-builtin-example"
         row={2}
         col={1}
+        style={{ marginTop: '-20px' }}
       />
     <Arrow />
     <Method
