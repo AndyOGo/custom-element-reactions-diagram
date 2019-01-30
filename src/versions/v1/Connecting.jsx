@@ -57,7 +57,7 @@ const Connecting = ({ advanced }) => (advanced ? (
       row={6}
       col={1}
     />
-    <Arrow solid />
+    <Arrow />
     <Method
       main
       name="connectedCallback"
@@ -129,7 +129,7 @@ const Connecting = ({ advanced }) => (advanced ? (
       row={6}
       col={1}
     />
-    <Arrow solid />
+    <Arrow />
     <Method
       main
       name="connectedCallback"
