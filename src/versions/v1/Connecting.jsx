@@ -63,7 +63,7 @@ const Connecting = ({ advanced }) => (advanced ? (
       name="connectedCallback"
       docname="custom-element-reactions:becomes-connected"
       annothash="connected-callback"
-      annotsymbol="3"
+      annotsymbol="2, 3"
       type="live"
       row={7}
       colspan={1}
@@ -135,7 +135,7 @@ const Connecting = ({ advanced }) => (advanced ? (
       name="connectedCallback"
       docname="custom-element-reactions:becomes-connected"
       annothash="connected-callback"
-      annotsymbol="3"
+      annotsymbol="2, 3"
       type="live"
       row={7}
       colspan={1}
