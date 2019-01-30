@@ -1,0 +1,34 @@
+.DocLink {
+  position: relative;
+}
+
+.DocLink__outer-link {
+  position: absolute;
+  left:0; top:0; bottom:0; right:0;
+
+  visibility: hidden;
+  overflow: hidden;
+}
+
+.DocLink__outer-link-content--hasLink {
+  text-decoration: underline;
+}
+
+.DocLink__inner {
+  position: relative;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.DocLink__inner-link {
+  pointer-events: all;
+  vertical-align: super;
+  color: inherit;
+  text-decoration: inherit;
+  font-size: 0.8em;
+  padding-left: 2px;
+
+  &:hover, &:focus {
+    text-decoration: underline;
+  }
+}

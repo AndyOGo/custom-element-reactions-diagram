@@ -15,7 +15,7 @@ const Disconnecting = ({ advanced }) => (advanced ? (
       row={6}
       colspan={2}
     />
-    <Arrow solid colspan={2} />
+    <Arrow colspan={2} />
     <Method
       main
       name="disconnectedCallback"
@@ -34,7 +34,7 @@ const Disconnecting = ({ advanced }) => (advanced ? (
       row={6}
       colspan={2}
     />
-    <Arrow solid colspan={2} />
+    <Arrow colspan={2} />
     <Method
       main
       name="disconnectedCallback"

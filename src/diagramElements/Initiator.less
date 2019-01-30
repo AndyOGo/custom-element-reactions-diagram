@@ -11,13 +11,16 @@
     font: inherit;
   }
 
-  a {
-    font: inherit;
+  a, .DocLink__outer-link-content--hasLink {
     color: inherit;
     text-decoration: none;
 
     &:hover, &:focus {
       text-decoration: underline;
+
+      + .DocLink__inner > .DocLink__outer-link-content {
+        text-decoration: underline;
+      }
     }
   }
 

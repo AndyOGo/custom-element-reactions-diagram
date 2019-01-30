@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import mergeClassNames from 'merge-class-names';
 
+import './DocLink.less';
 import { splitUpperCase } from '../shared/utils';
-
 import { t } from '../i18n';
 import { Consumer } from '../i18n/LangObserver';
 
 class DocLinkInternal extends Component {
   static propTypes = {
+    annothash: PropTypes.string,
+    annotsymbol: PropTypes.string,
     children: PropTypes.element,
     docname: PropTypes.string,
     docurl: PropTypes.string,
@@ -55,14 +58,27 @@ class DocLinkInternal extends Component {
   }
 
   render() {
-    const { docurl, docname } = this.props;
+    const {
+      docurl,
+      docname,
+      annothash,
+      annotsymbol,
+    } = this.props;
     const { translatedTitle: title, translatedName: name } = this.state;
     const { children = splitUpperCase(name) } = this.props;
+    const hasLink = docname;
+    const hasAnnotation = annothash && annothash;
 
     return (
-      docname
-        ? (
+      <div className={mergeClassNames(
+        'DocLink',
+        hasLink && 'DocLink--hasLink',
+        hasAnnotation && 'DocLink--hasAnnotation',
+      )}
+      >
+        {hasLink && (
           <a
+            className="DocLink__outer-link"
             href={`${docurl}#${docname}`}
             target="_blank"
             rel="noopener noreferrer"
@@ -70,12 +86,22 @@ class DocLinkInternal extends Component {
           >
             {children}
           </a>
-        )
-        : (
-          <span>
+        )}
+
+        <div className="DocLink__inner">
+          <span className={mergeClassNames(
+            'DocLink__outer-link-content',
+            hasLink && 'DocLink__outer-link-content--hasLink',
+          )}
+          >
             {children}
           </span>
-        )
+
+          {hasAnnotation && (
+            <a className="DocLink__inner-link" href={`#${annothash}`} title={annothash}>{annotsymbol}</a>
+          )}
+        </div>
+      </div>
     );
   }
 }
