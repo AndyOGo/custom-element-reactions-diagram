@@ -87,7 +87,13 @@ class DocLinkInternal extends Component {
         )}
 
         <div className="DocLink__inner">
-          <span className="DocLink__outer-link-content">{children}</span>
+          <span className={mergeClassNames(
+            'DocLink__outer-link-content',
+            hasLink && 'DocLink__outer-link-content--hasLink',
+          )}
+          >
+            {children}
+          </span>
 
           {hasAnnotation && (
             <a className="DocLink__inner-link" href={`#${annothash}`} title={annothash}>{annotsymbol}</a>
