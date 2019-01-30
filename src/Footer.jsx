@@ -1,15 +1,14 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 import './Footer.less';
 
 import GitHub from './GitHub';
-import PropTypes from 'prop-types';
 import { isReactVersion } from './propTypes';
 
 const diagramVersions = {
   v1: import('./versions/v1'),
 };
-
 
 export default class Footer extends Component {
   static propTypes = {

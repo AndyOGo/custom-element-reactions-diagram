@@ -3,6 +3,7 @@ import React from 'react';
 import Annotations from '../../legendElements/Annotations';
 import Annotation from '../../legendElements/Annotation';
 
+/* eslint-disable react/jsx-one-expression-per-line */
 const Footnotes = () => (
   <>
     <Annotations id="built-in" symbol="1">
@@ -11,7 +12,13 @@ const Footnotes = () => (
 
     <Annotations id="constructor" symbol="2">
       <Annotation>
-        <a href="https://html.spec.whatwg.org/multipage/custom-elements.html#custom-element-conformance" target="_blank" rel="noopener noreferrer">Requirements for custom element <code>constructor</code>s and reactions.</a>
+        <a
+          href="https://html.spec.whatwg.org/multipage/custom-elements.html#custom-element-conformance"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Requirements for custom element <code>constructor</code>s and reactions.
+        </a>
       </Annotation>
     </Annotations>
 

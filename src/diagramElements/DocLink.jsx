@@ -66,8 +66,8 @@ class DocLinkInternal extends Component {
     } = this.props;
     const { translatedTitle: title, translatedName: name } = this.state;
     const { children = splitUpperCase(name) } = this.props;
-    const hasLink = docname
-    const hasAnnotation = annothash && annothash
+    const hasLink = docname;
+    const hasAnnotation = annothash && annothash;
 
     return (
       <div className={mergeClassNames(
@@ -83,7 +83,9 @@ class DocLinkInternal extends Component {
             target="_blank"
             rel="noopener noreferrer"
             title={title}
-          ></a>
+          >
+            {children}
+          </a>
         )}
 
         <div className="DocLink__inner">

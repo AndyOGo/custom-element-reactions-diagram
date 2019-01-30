@@ -32,7 +32,7 @@ Initiator.propTypes = {
   row: PropTypes.number.isRequired,
   rowspan: PropTypes.number,
   secondary: PropTypes.bool,
-  style: PropTypes.object,
+  style: PropTypes.object,  // eslint-disable-line
 };
 
 Initiator.defaultProps = {
