@@ -91,7 +91,7 @@ export default class Root extends Component {
           toggleReactVersion={this.toggleReactVersion}
         />
         <DiagramWithLegend advanced={advanced} reactVersion={reactVersion} />
-        <Footer />
+        <Footer advanced={advanced} reactVersion={reactVersion} />
       </div>
     );
   }
