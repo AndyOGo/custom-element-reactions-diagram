@@ -64,7 +64,7 @@ const Connecting = ({ advanced }) => (advanced ? (
     />
     <Arrow withAlt solid />
     <Method
-      main
+      secondary
       name="custom render"
       type="custom"
       row={8}
@@ -128,7 +128,7 @@ const Connecting = ({ advanced }) => (advanced ? (
       />
       <Arrow withAlt solid />
       <Method
-        main
+        secondary
         name="custom render"
         type="custom"
         row={8}
