@@ -72,6 +72,8 @@ const Connecting = ({ advanced }) => (advanced ? (
     <Method
       secondary
       name="custom render"
+      annothash="custom-render"
+      annotsymbol="5"
       type="custom"
       row={8}
       col={1}
@@ -144,6 +146,8 @@ const Connecting = ({ advanced }) => (advanced ? (
     <Method
       secondary
       name="custom render"
+      annothash="custom-render"
+      annotsymbol="5"
       type="custom"
       row={8}
       col={1}
