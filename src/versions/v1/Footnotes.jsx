@@ -29,6 +29,12 @@ const Footnotes = () => (
         </a>
       </Annotation>
     </Annotations>
+
+    <Annotations id="attributes" symbol="4">
+      <Annotation>
+        <a href="https://html.spec.whatwg.org/#attributes" target="_blank" rel="noopener noreferrer">HTML attribute values are strings</a>, except for somewhat <a href="https://html.spec.whatwg.org/#boolean-attributes" target="_blank" rel="noopener noreferrer">boolean attributes</a>.
+      </Annotation>
+    </Annotations>
   </>
 );
 
