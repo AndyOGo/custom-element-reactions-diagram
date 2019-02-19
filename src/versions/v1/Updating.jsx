@@ -14,6 +14,8 @@ const Updating = ({ advanced }) => (advanced ? (
         main
         name="observedAttributes"
         docname="concept-custom-element-definition-observed-attributes"
+        annothash="attributes"
+        annotsymbol="4"
         type="unknown"
         col={2}
         row={3}
@@ -33,6 +35,8 @@ const Updating = ({ advanced }) => (advanced ? (
         main
         name="attributeChangedCallback"
         docname="custom-element-reactions:concept-element-attributes-change"
+        annothash="attributes"
+        annotsymbol="4"
         type="upgrade"
         col={2}
         row={5}
@@ -42,6 +46,8 @@ const Updating = ({ advanced }) => (advanced ? (
       <Method
         secondary
         name="custom render"
+        annothash="custom-render"
+        annotsymbol="5"
         type="custom"
         row={8}
         col={1}
@@ -62,6 +68,8 @@ const Updating = ({ advanced }) => (advanced ? (
       <Method
         secondary
         name="custom render"
+        annothash="custom-render"
+        annotsymbol="5"
         type="custom"
         row={8}
         col={1}
@@ -92,6 +100,8 @@ const Updating = ({ advanced }) => (advanced ? (
       <Method
         secondary
         name="custom render"
+        annothash="custom-render"
+        annotsymbol="5"
         type="custom"
         row={8}
         col={1}
@@ -106,6 +116,8 @@ const Updating = ({ advanced }) => (advanced ? (
         main
         name="observedAttributes"
         docname="concept-custom-element-definition-observed-attributes"
+        annothash="attributes"
+        annotsymbol="4"
         type="unknown"
         col={2}
         row={3}
@@ -125,6 +137,8 @@ const Updating = ({ advanced }) => (advanced ? (
         main
         name="attributeChangedCallback"
         docname="custom-element-reactions:concept-element-attributes-change"
+        annothash="attributes"
+        annotsymbol="4"
         type="upgrade"
         col={2}
         row={5}
@@ -134,6 +148,8 @@ const Updating = ({ advanced }) => (advanced ? (
       <Method
         secondary
         name="custom render"
+        annothash="custom-render"
+        annotsymbol="5"
         type="custom"
         row={8}
         col={1}
@@ -154,6 +170,8 @@ const Updating = ({ advanced }) => (advanced ? (
       <Method
         secondary
         name="custom render"
+        annothash="custom-render"
+        annotsymbol="5"
         type="custom"
         row={8}
         col={1}
@@ -184,6 +202,8 @@ const Updating = ({ advanced }) => (advanced ? (
       <Method
         secondary
         name="custom render"
+        annothash="custom-render"
+        annotsymbol="5"
         type="custom"
         row={8}
         col={1}

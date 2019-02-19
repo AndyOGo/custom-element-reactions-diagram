@@ -29,6 +29,28 @@ const Footnotes = () => (
         </a>
       </Annotation>
     </Annotations>
+
+    <Annotations id="attributes" symbol="4">
+      <Annotation>
+        <a href="https://html.spec.whatwg.org/#attributes" target="_blank" rel="noopener noreferrer">HTML attribute values are strings</a>, except for somewhat <a href="https://html.spec.whatwg.org/#boolean-attributes" target="_blank" rel="noopener noreferrer">boolean attributes</a>.
+      </Annotation>
+    </Annotations>
+
+    <Annotations id="custom-render" symbol="5">
+      <Annotation>
+        <a href="https://html.spec.whatwg.org/multipage/custom-elements.html#custom-element-conformance:concept-custom-element-reaction" target="_blank" rel="noopener noreferrer">
+          When authoring custom element reactions, authors should <b>avoid</b> manipulating the node tree as this can lead to <b>unexpected results</b>.
+        </a>
+      </Annotation>
+    </Annotations>
+
+    <Annotations id="disconnected-callback" symbol="6">
+      <Annotation>
+        <a href="https://html.spec.whatwg.org/multipage/custom-elements.html#custom-element-conformance:concept-custom-element-reaction" target="_blank" rel="noopener noreferrer">
+          An element's <code>connectedCallback</code> can be queued before the element is <b>disconnected</b>, but as the callback queue is still processed, it results in a <code>connectedCallback</code> <b>for an element that is no longer connected!</b>
+        </a>
+      </Annotation>
+    </Annotations>
   </>
 );
 

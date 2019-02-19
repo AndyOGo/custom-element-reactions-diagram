@@ -20,6 +20,8 @@ const Disconnecting = ({ advanced }) => (advanced ? (
       main
       name="disconnectedCallback"
       docname="custom-element-reactions:becomes-disconnected"
+      annothash="disconnected-callback"
+      annotsymbol="6"
       type="live"
       row={7}
       colspan={2}
@@ -39,6 +41,8 @@ const Disconnecting = ({ advanced }) => (advanced ? (
       main
       name="disconnectedCallback"
       docname="custom-element-reactions:becomes-disconnected"
+      annothash="disconnected-callback"
+      annotsymbol="6"
       type="live"
       row={7}
       colspan={2}
