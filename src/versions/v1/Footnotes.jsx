@@ -7,7 +7,7 @@ import Annotation from '../../legendElements/Annotation';
 const Footnotes = () => (
   <>
     <Annotations id="built-in" symbol="1">
-      <Annotation>Webkit rejects extended built-in elements.</Annotation>
+      <Annotation>Webkit rejects extended built-in elements, therefore, elements using this will not work on IPhone, IPad or Safari.</Annotation>
     </Annotations>
 
     <Annotations id="no-population" symbol="2">
