@@ -4,10 +4,10 @@ import mergeClassNames from 'merge-class-names';
 
 import './Initiator.less';
 
-import DocLink from './DocLink';
+import InitiatorItem from './InitiatorItem';
 
 const Initiator = ({
-  col, colspan, rowspan, docname, name, row, secondary, style, ...props
+  col, colspan, rowspan, docname, row, secondary, style, name, children, ...props
 }) => (
   <div
     className={mergeClassNames('Initiator', docname && 'Initiator--hasLink', secondary && 'Initiator--secondary')}
@@ -18,13 +18,13 @@ const Initiator = ({
       ...style,
     }}
   >
-    <h4>
-      <DocLink docname={docname} name={name} {...props} />
-    </h4>
+    {name && docname && <InitiatorItem docname={docname} name={name} {...props} />}
+    {children}
   </div>
 );
 
 Initiator.propTypes = {
+  children: PropTypes.node,
   col: PropTypes.number,
   colspan: PropTypes.number,
   docname: PropTypes.string,
