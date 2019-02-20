@@ -47,7 +47,7 @@ const Updating = ({ advanced }) => (advanced ? (
         secondary
         name="custom render"
         annothash="custom-render"
-        annotsymbol="6"
+        annotsymbol="6, 7"
         type="custom"
         row={7}
         col={1}
@@ -69,7 +69,7 @@ const Updating = ({ advanced }) => (advanced ? (
         secondary
         name="custom render"
         annothash="custom-render"
-        annotsymbol="6"
+        annotsymbol="6, 7"
         type="custom"
         row={7}
         col={1}
@@ -101,7 +101,7 @@ const Updating = ({ advanced }) => (advanced ? (
         secondary
         name="custom render"
         annothash="custom-render"
-        annotsymbol="6"
+        annotsymbol="6, 7"
         type="custom"
         row={7}
         col={1}
@@ -149,7 +149,7 @@ const Updating = ({ advanced }) => (advanced ? (
         secondary
         name="custom render"
         annothash="custom-render"
-        annotsymbol="6"
+        annotsymbol="6, 7"
         type="custom"
         row={7}
         col={1}
@@ -171,7 +171,7 @@ const Updating = ({ advanced }) => (advanced ? (
         secondary
         name="custom render"
         annothash="custom-render"
-        annotsymbol="6"
+        annotsymbol="6, 7"
         type="custom"
         row={7}
         col={1}
@@ -203,7 +203,7 @@ const Updating = ({ advanced }) => (advanced ? (
         secondary
         name="custom render"
         annothash="custom-render"
-        annotsymbol="6"
+        annotsymbol="6, 7"
         type="custom"
         row={7}
         col={1}

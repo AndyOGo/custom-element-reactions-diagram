@@ -48,7 +48,15 @@ const Footnotes = () => (
       </Annotation>
     </Annotations>
 
-    <Annotations id="disconnected-callback" symbol="7">
+    <Annotations id="fouc" symbol="7">
+      <Annotation>
+        <a href="https://www.stevesouders.com/blog/2013/11/26/performance-and-custom-elements/" target="_blank" rel="noopener noreferrer">
+          Custom elements always create a <b>flash of unstyled content or FOUC</b>.
+        </a>
+      </Annotation>
+    </Annotations>
+
+    <Annotations id="disconnected-callback" symbol="8">
       <Annotation>
         <a href="https://html.spec.whatwg.org/multipage/custom-elements.html#custom-element-conformance:concept-custom-element-reaction" target="_blank" rel="noopener noreferrer">
           An element's <code>connectedCallback</code> can be queued before the element is <b>disconnected</b>, but as the callback queue is still processed, it results in a <code>connectedCallback</code> <b>for an element that is no longer connected!</b>
