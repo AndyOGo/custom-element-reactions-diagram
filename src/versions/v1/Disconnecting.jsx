@@ -12,7 +12,7 @@ const Disconnecting = ({ advanced }) => (advanced ? (
       name="removeChild()"
       docname="dom-node-removechild"
       docurl="https://dom.spec.whatwg.org"
-      row={6}
+      row={5}
       colspan={2}
     />
     <Arrow colspan={2} />
@@ -23,7 +23,7 @@ const Disconnecting = ({ advanced }) => (advanced ? (
       annothash="disconnected-callback"
       annotsymbol="6"
       type="live"
-      row={7}
+      row={6}
       colspan={2}
     />
   </Section>
@@ -33,7 +33,7 @@ const Disconnecting = ({ advanced }) => (advanced ? (
       name="removeChild()"
       docname="dom-node-removechild"
       docurl="https://dom.spec.whatwg.org"
-      row={6}
+      row={5}
       colspan={2}
     />
     <Arrow colspan={2} />
@@ -44,7 +44,7 @@ const Disconnecting = ({ advanced }) => (advanced ? (
       annothash="disconnected-callback"
       annotsymbol="6"
       type="live"
-      row={7}
+      row={6}
       colspan={2}
     />
   </Section>

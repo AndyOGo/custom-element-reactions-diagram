@@ -14,31 +14,28 @@ const Connecting = ({ advanced }) => (advanced ? (
         docname="custom-elements-autonomous-example"
         row={1}
         col={1}
-        style={{ marginBottom: '-40px' }}
-      />
-      <Initiator
-        name='<div is="built-in">'
-        docname="custom-elements-customized-builtin-example"
-        annothash="built-in"
-        annotsymbol="1"
-        row={2}
-        col={1}
-        style={{ marginTop: '-20px' }}
-      />
+      >
+          <InitiatorItem
+            name='<div is="built-in">'
+            docname="custom-elements-customized-builtin-example"
+            annothash="built-in"
+            annotsymbol="1"
+          />
+      </Initiator>
       <Arrow />
       <Method
         main
         name="define"
         docname="element-definition"
         type="unknown"
-        row={3}
+        row={2}
         col={1}
       />
       <Initiator
         name="innerHTML()"
         docname="the-innerhtml-mixin"
         docurl="https://w3c.github.io/DOM-Parsing/"
-        row={4}
+        row={3}
       >
           <InitiatorItem
             name="createElement()"
@@ -59,14 +56,14 @@ const Connecting = ({ advanced }) => (advanced ? (
         annothash="constructor"
         annotsymbol="2"
         type="upgrade"
-        row={5}
+        row={4}
         col={1}
       />
       <Initiator
         name="appendChild()"
         docname="dom-node-appendchild"
         docurl="https://dom.spec.whatwg.org"
-        row={6}
+        row={5}
         col={1}
       />
       <Arrow />
@@ -77,7 +74,7 @@ const Connecting = ({ advanced }) => (advanced ? (
         annothash="connected-callback"
         annotsymbol="2, 3"
         type="live"
-        row={7}
+        row={6}
         colspan={1}
       />
       <Arrow withAlt solid />
@@ -87,7 +84,7 @@ const Connecting = ({ advanced }) => (advanced ? (
         annothash="custom-render"
         annotsymbol="5"
         type="custom"
-        row={8}
+        row={7}
         col={1}
         colspan={5}
       />
@@ -99,31 +96,28 @@ const Connecting = ({ advanced }) => (advanced ? (
         docname="custom-elements-autonomous-example"
         row={1}
         col={1}
-        style={{ marginBottom: '-40px' }}
-      />
-      <Initiator
-        name='<div is="built-in">'
-        docname="custom-elements-customized-builtin-example"
-        annothash="built-in"
-        annotsymbol="1"
-        row={2}
-        col={1}
-        style={{ marginTop: '-20px' }}
-      />
+      >
+          <InitiatorItem
+            name='<div is="built-in">'
+            docname="custom-elements-customized-builtin-example"
+            annothash="built-in"
+            annotsymbol="1"
+          />
+      </Initiator>
       <Arrow />
       <Method
         main
         name="define"
         docname="element-definition"
         type="unknown"
-        row={3}
+        row={2}
         col={1}
       />
       <Initiator
         name="innerHTML()"
         docname="the-innerhtml-mixin"
         docurl="https://w3c.github.io/DOM-Parsing/"
-        row={4}
+        row={3}
       >
           <InitiatorItem
             name="createElement()"
@@ -144,14 +138,14 @@ const Connecting = ({ advanced }) => (advanced ? (
         annothash="constructor"
         annotsymbol="2"
         type="upgrade"
-        row={5}
+        row={4}
         col={1}
       />
       <Initiator
         name="appendChild()"
         docname="dom-node-appendchild"
         docurl="https://dom.spec.whatwg.org"
-        row={6}
+        row={5}
         col={1}
       />
       <Arrow />
@@ -162,7 +156,7 @@ const Connecting = ({ advanced }) => (advanced ? (
         annothash="connected-callback"
         annotsymbol="2, 3"
         type="live"
-        row={7}
+        row={6}
         colspan={1}
       />
       <Arrow withAlt solid />
@@ -172,7 +166,7 @@ const Connecting = ({ advanced }) => (advanced ? (
         annothash="custom-render"
         annotsymbol="5"
         type="custom"
-        row={8}
+        row={7}
         col={1}
         colspan={5}
       />

@@ -18,7 +18,7 @@ const Updating = ({ advanced }) => (advanced ? (
         annotsymbol="4"
         type="unknown"
         col={2}
-        row={3}
+        row={2}
         colspan={2}
       />
       <Arrow row={4} colspan={2} />
@@ -26,7 +26,7 @@ const Updating = ({ advanced }) => (advanced ? (
         name="setAttribute()"
         docname="dom-element-setattribute"
         docurl="https://dom.spec.whatwg.org"
-        row={4}
+        row={3}
         col={2}
         colspan={2}
       />
@@ -39,17 +39,17 @@ const Updating = ({ advanced }) => (advanced ? (
         annotsymbol="4"
         type="upgrade"
         col={2}
-        row={5}
+        row={4}
         colspan={2}
       />
-      <Arrow withAlt solid row={6} col={2} colspan={2} />
+      <Arrow withAlt solid row={5} col={2} colspan={2} />
       <Method
         secondary
         name="custom render"
         annothash="custom-render"
         annotsymbol="5"
         type="custom"
-        row={8}
+        row={7}
         col={1}
         colspan={5}
       />
@@ -61,7 +61,7 @@ const Updating = ({ advanced }) => (advanced ? (
         name="custom properties"
         type="custom"
         col={4}
-        row={5}
+        row={4}
         colspan={2}
       />
       <Arrow withAlt solid col={4} colspan={2} />
@@ -71,7 +71,7 @@ const Updating = ({ advanced }) => (advanced ? (
         annothash="custom-render"
         annotsymbol="5"
         type="custom"
-        row={8}
+        row={7}
         col={1}
         colspan={5}
       />
@@ -82,7 +82,7 @@ const Updating = ({ advanced }) => (advanced ? (
         name="adoptNode()"
         docname="dom-document-adoptnode"
         docurl="https://dom.spec.whatwg.org"
-        row={6}
+        row={5}
         col={3}
         colspan={2}
       />
@@ -93,7 +93,7 @@ const Updating = ({ advanced }) => (advanced ? (
         docname="custom-element-reactions:concept-node-adopt"
         type="live"
         col={3}
-        row={7}
+        row={6}
         colspan={2}
       />
       <Arrow withAlt solid row={6} col={3} colspan={2} />
@@ -103,7 +103,7 @@ const Updating = ({ advanced }) => (advanced ? (
         annothash="custom-render"
         annotsymbol="5"
         type="custom"
-        row={8}
+        row={7}
         col={1}
         colspan={5}
       />
@@ -120,15 +120,15 @@ const Updating = ({ advanced }) => (advanced ? (
         annotsymbol="4"
         type="unknown"
         col={2}
-        row={3}
+        row={2}
         colspan={2}
       />
-      <Arrow row={4} colspan={2} />
+      <Arrow row={3} colspan={2} />
       <Initiator
         name="setAttribute()"
         docname="dom-element-setattribute"
         docurl="https://dom.spec.whatwg.org"
-        row={4}
+        row={3}
         col={2}
         colspan={2}
       />
@@ -141,17 +141,17 @@ const Updating = ({ advanced }) => (advanced ? (
         annotsymbol="4"
         type="upgrade"
         col={2}
-        row={5}
+        row={4}
         colspan={2}
       />
-      <Arrow withAlt solid row={6} col={2} colspan={2} />
+      <Arrow withAlt solid row={5} col={2} colspan={2} />
       <Method
         secondary
         name="custom render"
         annothash="custom-render"
         annotsymbol="5"
         type="custom"
-        row={8}
+        row={7}
         col={1}
         colspan={5}
       />
@@ -163,7 +163,7 @@ const Updating = ({ advanced }) => (advanced ? (
         name="custom properties"
         type="custom"
         col={4}
-        row={5}
+        row={4}
         colspan={2}
       />
       <Arrow withAlt solid col={4} colspan={2} />
@@ -173,7 +173,7 @@ const Updating = ({ advanced }) => (advanced ? (
         annothash="custom-render"
         annotsymbol="5"
         type="custom"
-        row={8}
+        row={7}
         col={1}
         colspan={5}
       />
@@ -184,7 +184,7 @@ const Updating = ({ advanced }) => (advanced ? (
         name="adoptNode()"
         docname="dom-document-adoptnode"
         docurl="https://dom.spec.whatwg.org"
-        row={6}
+        row={5}
         col={3}
         colspan={2}
       />
@@ -195,17 +195,17 @@ const Updating = ({ advanced }) => (advanced ? (
         docname="custom-element-reactions:concept-node-adopt"
         type="live"
         col={3}
-        row={7}
+        row={6}
         colspan={2}
       />
-      <Arrow withAlt solid row={6} col={3} colspan={2} />
+      <Arrow withAlt solid row={5} col={3} colspan={2} />
       <Method
         secondary
         name="custom render"
         annothash="custom-render"
         annotsymbol="5"
         type="custom"
-        row={8}
+        row={7}
         col={1}
         colspan={5}
       />

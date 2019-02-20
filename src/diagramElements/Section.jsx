@@ -60,14 +60,14 @@ export default class Section extends Component {
           className={mergeClassNames('Section', advanced && 'Section--advanced')}
           style={{
             gridColumn,
-            gridRow: advanced ? '1 / span 26' : '1 / span 14',
+            gridRow: advanced ? '1 / span 23' : '1 / span 14',
           }}
         />
         <div
           className={mergeClassNames('Section__highlight', advanced && 'Section__highlight--advanced')}
           style={{
             gridColumn,
-            gridRow: advanced ? '16 / span 11' : '8 / span 7',
+            gridRow: advanced ? '13 / span 11' : '8 / span 7',
           }}
         />
         <h3
