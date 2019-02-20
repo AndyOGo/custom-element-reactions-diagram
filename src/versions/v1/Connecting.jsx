@@ -14,6 +14,7 @@ const Connecting = ({ advanced }) => (advanced ? (
         docname="custom-elements-autonomous-example"
         row={1}
         col={1}
+        style={{ marginTop: '-20px' }}
       >
           <InitiatorItem
             name='<div is="built-in">'
@@ -96,6 +97,7 @@ const Connecting = ({ advanced }) => (advanced ? (
         docname="custom-elements-autonomous-example"
         row={1}
         col={1}
+        style={{ marginTop: '-20px' }}
       >
           <InitiatorItem
             name='<div is="built-in">'
