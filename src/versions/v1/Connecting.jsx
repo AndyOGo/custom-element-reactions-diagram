@@ -42,11 +42,15 @@ const Connecting = ({ advanced }) => (advanced ? (
             name="createElement()"
             docname="dom-document-createelement"
             docurl="https://dom.spec.whatwg.org"
+            annothash="no-population"
+            annotsymbol="2"
           />
           <InitiatorItem
             name="new ...()"
             docname="custom-elements-autonomous-example:custom-element-constructor"
             docurl="https://html.spec.whatwg.org/multipage/custom-elements.html"
+            annothash="no-population"
+            annotsymbol="2"
           />
       </Initiator>
       <Arrow />
@@ -55,7 +59,7 @@ const Connecting = ({ advanced }) => (advanced ? (
         name="constructor"
         docname="custom-element-constructor"
         annothash="constructor"
-        annotsymbol="2"
+        annotsymbol="3"
         type="upgrade"
         row={4}
         col={1}
@@ -73,7 +77,7 @@ const Connecting = ({ advanced }) => (advanced ? (
         name="connectedCallback"
         docname="custom-element-reactions:becomes-connected"
         annothash="connected-callback"
-        annotsymbol="2, 3"
+        annotsymbol="3, 4"
         type="live"
         row={6}
         colspan={1}
@@ -83,7 +87,7 @@ const Connecting = ({ advanced }) => (advanced ? (
         secondary
         name="custom render"
         annothash="custom-render"
-        annotsymbol="5"
+        annotsymbol="6"
         type="custom"
         row={7}
         col={1}
@@ -125,11 +129,15 @@ const Connecting = ({ advanced }) => (advanced ? (
             name="createElement()"
             docname="dom-document-createelement"
             docurl="https://dom.spec.whatwg.org"
+            annothash="no-population"
+            annotsymbol="2"
           />
           <InitiatorItem
             name="new ...()"
             docname="custom-elements-autonomous-example:custom-element-constructor"
             docurl="https://html.spec.whatwg.org/multipage/custom-elements.html"
+            annothash="no-population"
+            annotsymbol="2"
           />
       </Initiator>
       <Arrow />
@@ -138,7 +146,7 @@ const Connecting = ({ advanced }) => (advanced ? (
         name="constructor"
         docname="custom-element-constructor"
         annothash="constructor"
-        annotsymbol="2"
+        annotsymbol="3"
         type="upgrade"
         row={4}
         col={1}
@@ -156,7 +164,7 @@ const Connecting = ({ advanced }) => (advanced ? (
         name="connectedCallback"
         docname="custom-element-reactions:becomes-connected"
         annothash="connected-callback"
-        annotsymbol="2, 3"
+        annotsymbol="3, 4"
         type="live"
         row={6}
         colspan={1}
@@ -166,7 +174,7 @@ const Connecting = ({ advanced }) => (advanced ? (
         secondary
         name="custom render"
         annothash="custom-render"
-        annotsymbol="5"
+        annotsymbol="6"
         type="custom"
         row={7}
         col={1}

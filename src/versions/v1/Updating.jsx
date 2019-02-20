@@ -15,7 +15,7 @@ const Updating = ({ advanced }) => (advanced ? (
         name="observedAttributes"
         docname="concept-custom-element-definition-observed-attributes"
         annothash="attributes"
-        annotsymbol="4"
+        annotsymbol="5"
         type="unknown"
         col={2}
         row={2}
@@ -36,7 +36,7 @@ const Updating = ({ advanced }) => (advanced ? (
         name="attributeChangedCallback"
         docname="custom-element-reactions:concept-element-attributes-change"
         annothash="attributes"
-        annotsymbol="4"
+        annotsymbol="5"
         type="upgrade"
         col={2}
         row={4}
@@ -47,7 +47,7 @@ const Updating = ({ advanced }) => (advanced ? (
         secondary
         name="custom render"
         annothash="custom-render"
-        annotsymbol="5"
+        annotsymbol="6"
         type="custom"
         row={7}
         col={1}
@@ -69,7 +69,7 @@ const Updating = ({ advanced }) => (advanced ? (
         secondary
         name="custom render"
         annothash="custom-render"
-        annotsymbol="5"
+        annotsymbol="6"
         type="custom"
         row={7}
         col={1}
@@ -101,7 +101,7 @@ const Updating = ({ advanced }) => (advanced ? (
         secondary
         name="custom render"
         annothash="custom-render"
-        annotsymbol="5"
+        annotsymbol="6"
         type="custom"
         row={7}
         col={1}
@@ -117,7 +117,7 @@ const Updating = ({ advanced }) => (advanced ? (
         name="observedAttributes"
         docname="concept-custom-element-definition-observed-attributes"
         annothash="attributes"
-        annotsymbol="4"
+        annotsymbol="5"
         type="unknown"
         col={2}
         row={2}
@@ -138,7 +138,7 @@ const Updating = ({ advanced }) => (advanced ? (
         name="attributeChangedCallback"
         docname="custom-element-reactions:concept-element-attributes-change"
         annothash="attributes"
-        annotsymbol="4"
+        annotsymbol="5"
         type="upgrade"
         col={2}
         row={4}
@@ -149,7 +149,7 @@ const Updating = ({ advanced }) => (advanced ? (
         secondary
         name="custom render"
         annothash="custom-render"
-        annotsymbol="5"
+        annotsymbol="6"
         type="custom"
         row={7}
         col={1}
@@ -171,7 +171,7 @@ const Updating = ({ advanced }) => (advanced ? (
         secondary
         name="custom render"
         annothash="custom-render"
-        annotsymbol="5"
+        annotsymbol="6"
         type="custom"
         row={7}
         col={1}
@@ -203,7 +203,7 @@ const Updating = ({ advanced }) => (advanced ? (
         secondary
         name="custom render"
         annothash="custom-render"
-        annotsymbol="5"
+        annotsymbol="6"
         type="custom"
         row={7}
         col={1}
