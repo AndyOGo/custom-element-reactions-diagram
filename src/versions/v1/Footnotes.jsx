@@ -6,6 +6,10 @@ import Annotation from '../../legendElements/Annotation';
 /* eslint-disable react/jsx-one-expression-per-line */
 const Footnotes = () => (
   <>
+    <Annotations id="built-in" symbol="❌">
+      <Annotation>Handle or skip potential glitches, element not ready, not live, not populated, no longer connected, etc.</Annotation>
+    </Annotations>
+
     <Annotations id="built-in" symbol="1">
       <Annotation>Webkit rejects extended built-in elements, therefore, elements using this will not work on IPhone, IPad or Safari.</Annotation>
     </Annotations>
