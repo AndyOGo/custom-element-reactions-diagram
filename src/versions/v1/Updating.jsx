@@ -86,13 +86,19 @@ const Updating = ({ advanced }) => (advanced ? (
 
     <Subsection col={2}>
       <Initiator
-        name="adoptNode()"
+        name="adoptNode(),"
         docname="dom-document-adoptnode"
         docurl="https://dom.spec.whatwg.org"
         row={5}
         col={3}
         colspan={2}
-      />
+      >
+        <InitiatorItem
+          name="replaceChild(), ..."
+          docname="dom-node-replacechild"
+          docurl="https://dom.spec.whatwg.org"
+        />
+      </Initiator>
       <Arrow col={3} colspan={2} />
       <Method
         main
@@ -194,13 +200,19 @@ const Updating = ({ advanced }) => (advanced ? (
 
     <Subsection col={2}>
       <Initiator
-        name="adoptNode()"
+        name="adoptNode(),"
         docname="dom-document-adoptnode"
         docurl="https://dom.spec.whatwg.org"
         row={5}
         col={3}
         colspan={2}
-      />
+      >
+        <InitiatorItem
+          name="replaceChild(), ..."
+          docname="dom-node-replacechild"
+          docurl="https://dom.spec.whatwg.org"
+        />
+      </Initiator>
       <Arrow col={3} colspan={2} />
       <Method
         main
