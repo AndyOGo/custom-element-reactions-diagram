@@ -65,12 +65,18 @@ const Connecting = ({ advanced }) => (advanced ? (
         col={1}
       />
       <Initiator
-        name="appendChild()"
+        name="appendChild(),"
         docname="dom-node-appendchild"
         docurl="https://dom.spec.whatwg.org"
         row={5}
         col={1}
-      />
+      >
+        <InitiatorItem
+          name="replaceChild(), ..."
+          docname="dom-node-replacechild"
+          docurl="https://dom.spec.whatwg.org"
+        />
+      </Initiator>
       <Arrow />
       <Method
         main
@@ -152,12 +158,18 @@ const Connecting = ({ advanced }) => (advanced ? (
         col={1}
       />
       <Initiator
-        name="appendChild()"
+        name="appendChild(),"
         docname="dom-node-appendchild"
         docurl="https://dom.spec.whatwg.org"
         row={5}
         col={1}
-      />
+      >
+        <InitiatorItem
+          name="replaceChild(), ..."
+          docname="dom-node-replacechild"
+          docurl="https://dom.spec.whatwg.org"
+        />
+      </Initiator>
       <Arrow />
       <Method
         main

@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import Section from '../../diagramElements/Section';
 import Subsection from '../../diagramElements/Subsection';
 import Initiator from '../../diagramElements/Initiator';
+import InitiatorItem from '../../diagramElements/InitiatorItem';
 import Method from '../../diagramElements/Method';
 import Arrow from '../../diagramElements/Arrow';
 
@@ -23,13 +24,19 @@ const Updating = ({ advanced }) => (advanced ? (
       />
       <Arrow row={4} colspan={2} />
       <Initiator
-        name="setAttribute()"
+        name="setAttribute(),"
         docname="dom-element-setattribute"
         docurl="https://dom.spec.whatwg.org"
         row={3}
         col={2}
         colspan={2}
-      />
+      >
+        <InitiatorItem
+          name="Attr.value, ..."
+          docname="dom-attr-value"
+          docurl="https://dom.spec.whatwg.org"
+        />
+      </Initiator>
       <Arrow colspan={2} />
       <Method
         main
@@ -125,13 +132,19 @@ const Updating = ({ advanced }) => (advanced ? (
       />
       <Arrow row={3} colspan={2} />
       <Initiator
-        name="setAttribute()"
+        name="setAttribute(),"
         docname="dom-element-setattribute"
         docurl="https://dom.spec.whatwg.org"
         row={3}
         col={2}
         colspan={2}
-      />
+      >
+        <InitiatorItem
+          name="Attr.value, ..."
+          docname="dom-attr-value"
+          docurl="https://dom.spec.whatwg.org"
+        />
+      </Initiator>
       <Arrow colspan={2} />
       <Method
         main
