@@ -5,16 +5,23 @@ import Section from '../../diagramElements/Section';
 import Method from '../../diagramElements/Method';
 import Arrow from '../../diagramElements/Arrow';
 import Initiator from '../../diagramElements/Initiator';
+import InitiatorItem from '../../diagramElements/InitiatorItem';
 
 const Disconnecting = ({ advanced }) => (advanced ? (
   <Section advanced name="Disconnecting" col={6} colspan={2}>
     <Initiator
-      name="removeChild()"
+      name="removeChild(),"
       docname="dom-node-removechild"
       docurl="https://dom.spec.whatwg.org"
       row={5}
       colspan={2}
-    />
+    >
+      <InitiatorItem
+        name="replaceChild(), ..."
+        docname="dom-node-replacechild"
+        docurl="https://dom.spec.whatwg.org"
+      />
+    </Initiator>
     <Arrow colspan={2} />
     <Method
       main
@@ -30,12 +37,18 @@ const Disconnecting = ({ advanced }) => (advanced ? (
 ) : (
   <Section advanced name="Disconnecting" col={6} colspan={2}>
     <Initiator
-      name="removeChild()"
+      name="removeChild(),"
       docname="dom-node-removechild"
       docurl="https://dom.spec.whatwg.org"
       row={5}
       colspan={2}
-    />
+    >
+      <InitiatorItem
+        name="replaceChild(), ..."
+        docname="dom-node-replacechild"
+        docurl="https://dom.spec.whatwg.org"
+      />
+    </Initiator>
     <Arrow colspan={2} />
     <Method
       main
