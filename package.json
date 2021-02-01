@@ -89,7 +89,7 @@
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsx-a11y": "^6.1.2",
     "eslint-plugin-react": "^7.12.0",
-    "less": "^3.9.0",
+    "less": "^4.1.1",
     "parcel-bundler": "^1.11.0",
     "rimraf": "^2.6.2"
   }
